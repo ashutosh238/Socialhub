@@ -1,0 +1,15 @@
+<div class="container" ng-Controller="c_blogController">
+
+  <h2 align="center" style="margin:20px 0;">ADD BLOG</h2>
+  <form>
+    <div class="form-group">
+      <label for="blogname">Blog Name:</label>
+      <input type="text" class="form-control" ng-model="blog.blogname" placeholder="Enter Blog Title" name="blogname">
+    </div>
+    <div class="form-group">
+      <label for="blogcontent">Blog Content:</label>
+      <textarea class="form-control" rows="5"  ng-model="blog.blogcontent" placeholder="Enter Blog Content"name="blogcontent"></textarea>
+    </div>
+    <button type="submit" ng-click="addBlog()" class="btn btn-primary">ADD</button>
+  </form>
+</div>

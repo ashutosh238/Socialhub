@@ -1,0 +1,26 @@
+<div class="container" ng-Controller="c_blogController">
+
+<h2 align="center" style="margin:20px 0;background-color:ghostwhite;font-family:Monotype Corsiva">All Blogs</h2><br>
+<p style="font-weight:bold;font-size:20px;text-decoration:underline;" ng-hide="CurrentUser == undefined">Current User: {{CurrentUser.username}}</p><br>
+
+<div ng-repeat="blog in allBlogData">
+  
+  <button type="button" style="width:200px;border:0;" class="btn btn-default" data-toggle="collapse" data-target="#{{blog.blogId}}">{{blog.blogname}}</button>
+  <button type="button" style="border:0;" class="btn btn-warning" ng-click="incLike(blog.blogId)">{{blog.likes}} Likes</button>
+  <label style="font-weight:bold;" ng-show="blog.blogstatus=='A' && CurrentUser.role == 'ROLE_USER'">Approved</label>
+  <label style="font-weight:bold;" ng-show="blog.blogstatus=='R' && CurrentUser.role == 'ROLE_USER'">Rejected</label>
+  <label style="font-weight:bold;" ng-show="blog.blogstatus=='N' && CurrentUser.role == 'ROLE_USER'">Approval Pending</label>
+  <br>
+  <div id="{{blog.blogId}}" class="collapse"><br>
+    <textarea class="form-control" readonly rows="5" name="blogcontent" ng-model="blog.blogcontent" placeholder="{{blog.blogcontent}}"></textarea>
+    <br>
+      	<button type="button" class="btn btn-primary" ng-click="approve(blog.blogId)" ng-show="blog.blogstatus=='NA'">Approve</button>
+  		<button type="button" class="btn btn-primary" ng-click="reject(blog.blogId)" ng-show="blog.blogstatus=='NA' ">Reject</button>
+  		<button type="button" class="btn btn-danger"  ng-click="deleteblog(blog.blogId)">Delete</button>
+  		<button type="button" class="btn btn-primary">Comments</button>
+  	</div>
+  
+  <br><hr>
+  
+</div>
+</div>

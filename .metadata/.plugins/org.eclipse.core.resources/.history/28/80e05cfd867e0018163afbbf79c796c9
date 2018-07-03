@@ -1,0 +1,63 @@
+package com.ashutosh.socialhub;
+
+import static org.junit.Assert.*;
+
+import java.util.List;
+
+import org.junit.BeforeClass;
+import org.junit.Ignore;
+import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.ashutosh.socialhub.dao.FriendDAO;
+import com.ashutosh.socialhub.domain.Friend;
+
+public class FriendDAOTestCase {
+
+	private static AnnotationConfigApplicationContext context;
+	
+	@Autowired
+	private static FriendDAO friendDAO;
+	
+	@BeforeClass
+	public static void init()
+	{
+		context= new AnnotationConfigApplicationContext();
+		context.scan("com.ashutosh");
+		context.refresh();
+		
+		friendDAO = (FriendDAO) context.getBean("friendDAO");
+		
+	}
+	
+	@Ignore
+	@Test
+	public void sendFriendRequestTestCase()
+	{
+		Friend friend=new Friend();
+		friend.setLoginname("Khushbu");
+		friend.setFriendlogonname("Ashutosh");
+		assertTrue("problem in sending a friend request",friendDAO.sendFriendRequest(friend));
+	}
+	
+	@Test
+	public void acceptFriendRequest()
+	{
+		assertTrue("problem in accepting a friend request",friendDAO.accepctFriendrequest(21));
+		
+	}
+	
+	@Test
+	public void showPendingFriendRequest()
+	{
+		List<Friend> friends = friendDAO.showFriendList("khushbu");
+		boolean flag = friends.isEmpty();
+		assertEquals("friend list test case", false, flag);
+		for(Friend f:friends)
+		{
+			System.out.println("Friend Loginname: "+f.getFriendlogonname());
+}
+	}
+	
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+
+<script src="route-config.js" type="text/javascript"></script>
+<script src="c_user/c_userController.js" type="text/javascript"></script>
+<script src="c_blog/c_blogController.js" type="text/javascript"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  
+<title>SocialHub</title>
+</head>
+<body ng-app="myApp">
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand -->
+  <a class="navbar-brand" href="#">SocialHub</a>
+  <li class="nav-item dropdown">
+    	 <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown"> Blog </a>
+    		<div class="dropdown-menu">
+        		<a class="dropdown-item" href="#/myBlog" >My Blog</a>
+        		<a class="dropdown-item" href="#/addBlog" >Add Blog</a>
+        		<a class="dropdown-item" href="#/allBlog">Show Blogs</a>
+     		</div>
+  		</li>
+  
+
+	<ul class="nav navbar-nav navbar-left">
+	 <li class="nav-item" ng-show="CurrentUser==undefined">
+      <a class="nav-link" href="#/login"> Login </a>
+    </li>
+    
+    
+    <li class="nav-item" ng-hide="CurrentUser==undefined">
+      <a class="nav-link" style="color:wheat;" href="#"> Welcome, {{CurrentUser.username}} </a>
+      
+    </li>
+     <li class="nav-item" ng-hide="CurrentUser==undefined">
+      <a class="nav-link" href="#/editprofile"> Edit Profile </a>
+    </li>
+     </li>
+     <li class="nav-item" ng-hide="CurrentUser==undefined">
+      
+      <img src="http://localhost:8081/SocialHubMiddelware/profile/getProfilePicture/{{CurrentUser.loginname}}" ng-hide="CurrentUser==undefined" style="width:60px;height:80px;padding:0;margin:0;" alt="user profile picture">
+
+    </li>
+    
+    
+    <li class="nav-item" ng-show="CurrentUser==undefined">
+      <a class="nav-link" href="#/register"> Register </a>
+    </li>
+    
+    
+    
+  </ul>
+</nav>
+
+<div ng-view></div>
+
+</body>
+</html>
