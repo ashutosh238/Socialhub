@@ -15,8 +15,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.ashutosh.socialhub.dao.BlogDAO;
+import com.ashutosh.socialhub.dao.BlogcommentDAO;
 import com.ashutosh.socialhub.dao.UserDAO;
 import com.ashutosh.socialhub.domain.Blog;
+import com.ashutosh.socialhub.domain.Blogcomment;
 import com.ashutosh.socialhub.domain.UserDetail;
 
 @RestController
@@ -28,6 +30,9 @@ public class ProductRestController
 		
 		@Autowired
 		BlogDAO blogDAO;
+		
+		@Autowired
+		BlogcommentDAO blogcommentDAO;
 		
 		
 	
@@ -179,6 +184,41 @@ public class ProductRestController
 				return new ResponseEntity("Failure",HttpStatus.NOT_FOUND);
 			}
 		}
+		
+		@RequestMapping("blog/listComments/{blogid}")
+		public ResponseEntity<List<Blogcomment>> listBlogComments(@PathVariable int blogid)
+		{
+			List<Blogcomment> blogcomments = blogcommentDAO.getAllComments(blogid);
+			if(blogcomments.isEmpty())
+			{
+				return new ResponseEntity<List<Blogcomment>>(blogcomments, HttpStatus.NOT_FOUND);
+			}
+			else
+			{
+				return new ResponseEntity<List<Blogcomment>>(blogcomments, HttpStatus.OK);
+			}
+	}
+		
+		
+		
+		
+		@PostMapping("blog/comment")
+		public ResponseEntity<Blogcomment> commentBlog(@RequestBody Blogcomment blogComment,HttpSession session)
+		{
+			UserDetail userDetail=(UserDetail)session.getAttribute("userDetail");
+			
+		
+			blogComment.setLoginname(userDetail.getLoginname());
+			blogComment.setBlogid(109);
+			if(blogcommentDAO.addComment(blogComment))
+			{
+				return new ResponseEntity<Blogcomment>(blogComment, HttpStatus.OK);
+			}
+			else
+			{
+				return new ResponseEntity<Blogcomment>(blogComment, HttpStatus.INTERNAL_SERVER_ERROR);
+			}
+	}
 		
 
 	}

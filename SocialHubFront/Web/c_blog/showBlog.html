@@ -18,7 +18,8 @@
       	<button type="button" class="btn btn-primary" ng-click="approve(blog.blogId)" ng-show="blog.status=='NA'">Approve</button>
   		<button type="button" class="btn btn-primary" ng-click="reject(blog.blogId)" ng-show="blog.status=='NA' ">Reject</button>
   		<button type="button" class="btn btn-danger"  ng-click="deleteblog(blog.blogId)">Delete</button>
-  		<button type="button" class="btn btn-primary">Comments</button>
+  		 <button style="float:right;" class="btn btn-success" ng-hide="CurrentUser == undefined" ng-click="commentedblog(blog.blogId)">Comment</button>
+  		
   	</div>
   
   <br><hr>

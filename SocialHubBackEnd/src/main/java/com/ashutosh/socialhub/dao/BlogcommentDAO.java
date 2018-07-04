@@ -8,10 +8,8 @@ import com.ashutosh.socialhub.domain.Blogcomment;
 
 public interface BlogcommentDAO {
 	
-	public boolean save(Blogcomment blogcomment);
-	public boolean update(Blogcomment blogcomment);
-	public boolean delete(Blogcomment blogcomment);
-	public Blogcomment get(int id);
-	public List<Blogcomment> list();
+	public boolean addComment(Blogcomment blogcomment);
+	public boolean deleteComment(Blogcomment blogcomment);
+	public List<Blogcomment> getAllComments(int blogId);
 	
 }

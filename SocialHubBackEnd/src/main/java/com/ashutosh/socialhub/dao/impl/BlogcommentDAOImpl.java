@@ -5,8 +5,10 @@ import java.util.List;
 
 import javax.transaction.Transactional;
 
+import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.criterion.Restrictions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
@@ -19,54 +21,15 @@ import com.ashutosh.socialhub.domain.Blogcomment;
 public class BlogcommentDAOImpl implements BlogcommentDAO {
 
 	@Autowired
-	private SessionFactory sessionFactory;
+	SessionFactory sessionFactory;
+
 	
-	public boolean save(Blogcomment blogcomment) {
-		 
-			
-			try {
-				 
-				blogcomment.setCommentdate(new Date(System.currentTimeMillis()));
-				sessionFactory.getCurrentSession().saveOrUpdate(blogcomment);
-			} catch (Exception e) {
-				// print the complete exception stack trace
-				e.printStackTrace();
-				return false;
-			}
-			
-			return true;
-		
-	}
-
-	public boolean update(Blogcomment blogcomment) {
-		try {
-			 
-			sessionFactory.getCurrentSession().update(blogcomment);
-			return true;
-		} catch (Exception e) {
-			
-			e.printStackTrace();
-			return false;
-		}
-		 
-	}
-
-	public Blogcomment get(int id) {
-		Session session=sessionFactory.openSession();
-		Blogcomment blogcomment=(Blogcomment)session.get(Blogcomment.class,id);
-		session.close();
-		return blogcomment;
-	}
-
-	public List<Blogcomment> list() {
-		return sessionFactory.getCurrentSession().createQuery("from Blogcomment").list();
-	}
-
-	public boolean delete(Blogcomment blogcomment) 
+	public boolean addComment(Blogcomment blogComment) 
 	{
 		try
-		{
-			sessionFactory.getCurrentSession().delete(blogcomment);
+		{ 
+			blogComment.setCommentdate(new Date(System.currentTimeMillis()));
+			sessionFactory.getCurrentSession().save(blogComment);
 			return true;
 		}
 		catch(Exception e)
@@ -74,7 +37,39 @@ public class BlogcommentDAOImpl implements BlogcommentDAO {
 			System.out.println("Exception Arised:"+e);
 			return false;
 		}
-		
 	}
 
+	
+	public boolean deleteComment(Blogcomment blogComment) 
+	{
+		try
+		{
+			sessionFactory.getCurrentSession().delete(blogComment);
+			return true;
+		}
+		catch(Exception e)
+		{
+			System.out.println("Exception Arised:"+e);
+			return false;
+		}
+	}
+
+	
+	public List<Blogcomment> getAllComments(int blogId) 
+	{
+		try
+		{
+			Session session=sessionFactory.openSession();
+			Query query=session.createQuery("from Blogcomment where blogId=:myblogid");
+			query.setParameter("myblogid",blogId);
+			List<Blogcomment> listBlogComments=query.list();
+			return listBlogComments;
+		}
+		catch(Exception e)
+		{
+			System.out.println("Exception Arised:"+e);
+			return null;
+		}
+	}
+	
 }

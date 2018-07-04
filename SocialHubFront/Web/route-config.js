@@ -14,6 +14,7 @@ myApp.config(
 				.when("/addBlog",{templateUrl : "c_blog/addBlog.html"})
 				.when("/allBlog",{templateUrl : "c_blog/showBlog.html"})
 				.when("/editprofile", {templateUrl : "c_user/editProfile.html"})
+				.when("/blogcomment", {templateUrl : "c_blog/blogcomment.html"})
 
 				
 				

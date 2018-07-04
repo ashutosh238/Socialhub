@@ -1,8 +1,9 @@
 myApp.controller("c_blogController", function($scope, $http, $rootScope, $location)
 {
 	$scope.blog = {'blogname':'', 'blogcontent':'', 'createdate':'', 'loginname':'', 'status':'', 'likes':0, 'dislikes':0, 'blogId':0}
+	$scope.blogComment = {'blogid':'','commenttext':'', 'loginname':'', 'commentdate':'','commentid':'' }
 	$scope.allBlogData;
-
+	$scope.commentid;
 	
 	$scope.addBlog = function()
 	{
@@ -72,16 +73,37 @@ myApp.controller("c_blogController", function($scope, $http, $rootScope, $locati
 		});
 	}
 	
-	$rootScope.comment=function(blogId)
+	$scope.commentedblog = function(blogid)
 	{
-		$http.get('http://localhost:8081/SocialHubMiddelware/getBlog/'+blogId)
+		$http.get('http://localhost:8081/SocialHubMiddelware/getBlog/'+blogid)
 		.then(function(response)
-		{
-			$rootScope.blogInfo=response.data;
-			$location.path('/blogComment');	
-		});
+				{
+					$rootScope.commentid = blogid;
+					$location.path("/blogcomment");
+				});
 		
-	}
+}
 	
+	$scope.commentblog = function()
+	{
+		$http.post('http://localhost:8081/SocialHubMiddelware/blog/comment/', $scope.blogComment)
+		.then(function(response)
+				{
+					$route.reload();
+					console.log("commented succesfully");
+				});
+}
+	
+	
+	function commentlist()
+	{
+		$http.post('http://localhost:8081/SocialHubMiddelware/blog/listComments/'+$rootScope.commentid)
+		.then(function(response)
+				{
+					console.log("loading comments");
+					$rootScope.commentedData = response.data;
+				});
+	}
+commentlist();
 	showBlog();
 });

@@ -1,5 +1,0 @@
-#Tomcat publish data
-#Tue Jul 03 13:34:51 IST 2018
-org.eclipse.jst.j2ee.server\:SocialHubBackEnd=WEB-INF/lib/SocialHubBackEnd-0.0.1-SNAPSHOT.jar
-org.eclipse.jst.j2ee.server\:/binary\:C\:\\Users\\Ashutosh\\.m2\\repository\\org\\springframework\\spring-web\\5.0.7.RELEASE\\spring-web-5.0.7.RELEASE.jar=WEB-INF/lib/spring-web-5.0.7.RELEASE.jar
-org.eclipse.jst.j2ee.server\:SocialHubMiddelware=WEB-INF/lib/SocialHubMiddelware.war

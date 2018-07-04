@@ -2,24 +2,34 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="roles" key="selection"/>
+		<item value="" key="selection"/>
 		<item value="true" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="true" key="wholeword"/>
 		<list key="findhistory">
+			<item value="userDetail"/>
+			<item value="BlogComment"/>
+			<item value="ng-repeat"/>
+			<item value="commentedblogid"/>
+			<item value="get"/>
+			<item value="BogComment"/>
+			<item value="blogCommentDAO"/>
+			<item value="User"/>
 			<item value="role"/>
 			<item value="c_user"/>
 			<item value="c_friend"/>
-			<item value="User"/>
 			<item value="CurrentUser"/>
 			<item value="profilepicture"/>
 		</list>
 		<list key="replacehistory">
+			<item value="Blogcomment"/>
+			<item value="commentid"/>
+			<item value="blogcommentDAO"/>
+			<item value="UserDetail"/>
 			<item value="roles"/>
 			<item value="userdetail"/>
 			<item value="friend"/>
-			<item value="UserDetail"/>
 			<item value="picture"/>
 		</list>
 	</section>

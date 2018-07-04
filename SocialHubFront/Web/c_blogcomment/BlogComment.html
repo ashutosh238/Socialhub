@@ -1,0 +1,14 @@
+<div class="container" ng-Controller="c_blogCommentController">
+
+<h2 align="center" style="margin:20px 0;background-color:ghostwhite;font-family:Monotype Corsiva">Blog Comments</h2><br>
+
+<div ng-repeat="blogcomment in blogComments">
+   
+   <input type="text" value="{{blogcomment.loginname}}">
+   <textarea class="form-control" readonly rows="2" name="blogcomment" ng-model="blogcomment.commenttext" placeholder="{{blogcomment.commenttext}}"></textarea>
+   <button type="button" class="btn btn-primary" ng-click="commentblog(blog.blogId)" ng-hide="CurrentUser == undefined">Comment</button>
+  
+  <br><hr>
+  
+</div>
+</div>

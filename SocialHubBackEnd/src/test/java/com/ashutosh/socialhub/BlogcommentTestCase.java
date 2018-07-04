@@ -2,6 +2,8 @@ package com.ashutosh.socialhub;
 
 import static org.junit.Assert.*;
 
+import java.util.List;
+
 import org.junit.BeforeClass;
 import org.junit.Ignore;
 import org.junit.Test;
@@ -43,38 +45,26 @@ private static Blogcomment blogcomment;
 	@Test
 	public void addBlogCommentTestCase()
 	{	 
-		//blogcomment.setBlogid(9);
+		blogcomment.setBlogid(6);
 		blogcomment.setCommenttext("Its a ver nice blog for information");
-		blogcomment.setLoginname("George");
+		blogcomment.setLoginname("Shrinivas");
 		
 		
-		Assert.assertEquals("Add Blogcomment Test Case" , true  , blogcommentDAO.save(blogcomment));
+		Assert.assertEquals("Add Blogcomment Test Case" , true  , blogcommentDAO.addComment(blogcomment));
 		
 	}
 
-	@Ignore
-@Test
-public void deleteBlogTest()
-{
-	Blogcomment blogcomment=blogcommentDAO.get(5);
-	assertTrue("Problem in Deleting:",blogcommentDAO.delete(blogcomment));
-}
-	@Ignore
 	@Test
-	public void UpdateBlogTest()
+	public void listBlogCommentTestCase()
 	{
-		/*Blogcomment blogcomment=blogcommentDAO.get(4);
-		blogcomment.setStatus("A");
-		blogcomment.setBolgContent("Spring handels the infrastructure due to which develoger imphesises on buiseness logic");
-		assertTrue("Problem in Updateing:",blogcommentDAO.update(blogcomment));
-	*/}
-	@Ignore
-	@Test
-	public void getAllBlogs()
-	{
-		int size = blogcommentDAO.list().size();
+		List<Blogcomment> listComments=blogcommentDAO.getAllComments(109);
 		
-		Assert.assertEquals(5, size);
+		assertTrue("Problem in Listing BlogComments:",listComments.size()>0);
+		
+		for(Blogcomment blogComment:listComments)
+		{
+			System.out.print(blogComment.getBlogid()+":::");
+			System.out.println(blogComment.getCommenttext());
+		}
 	}
-
 }
