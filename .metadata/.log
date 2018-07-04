@@ -4321,3 +4321,1423 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-04 16:12:00.862
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2018-07-04 22:59:37.589 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180301-0715
+java.version=9.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-07-04 23:05:32.185
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Ashutosh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-04 23:06:02.804
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-04 23:06:02.843
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-07-04 23:21:08.674
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: java.nio.channels.ClosedByInterruptException
+	at org.eclipse.jdt.internal.core.ClassFile.getBinaryTypeInfo(ClassFile.java:199)
+	at org.eclipse.jdt.internal.core.ClassFile.buildStructure(ClassFile.java:75)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:259)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:583)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:320)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:306)
+	at org.eclipse.jdt.internal.core.BinaryType.getClassFileInfo(BinaryType.java:230)
+	at org.eclipse.jdt.internal.core.BinaryType.getChildren(BinaryType.java:193)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:275)
+	at org.eclipse.jdt.internal.core.BinaryType.getMethods(BinaryType.java:462)
+	at org.eclipse.jdt.internal.corext.util.MethodOverrideTester.findOverriddenMethodInType(MethodOverrideTester.java:195)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2$JavadocLookup$7.visit(JavadocContentAccess2.java:391)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2$InheritDocVisitor.visitInheritDoc(JavadocContentAccess2.java:203)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2$JavadocLookup.getInheritedDescription(JavadocContentAccess2.java:414)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2$JavadocLookup.getInheritedMainDescription(JavadocContentAccess2.java:308)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.elementToHTML(JavadocContentAccess2.java:1023)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.toHTML(JavadocContentAccess2.java:866)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.javadoc2HTML(JavadocContentAccess2.java:784)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContentFromSource(JavadocContentAccess2.java:662)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:534)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:757)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:675)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:667)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:164)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:86)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+Caused by: java.nio.channels.ClosedByInterruptException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(Unknown Source)
+	at java.base/java.nio.channels.Channels$ReadableByteChannelImpl.read(Unknown Source)
+	at jdk.internal.jrtfs.JrtFileSystem$1.read(JrtFileSystem.java:376)
+	at java.base/sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.base/sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.base/sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.base/java.nio.file.Files.read(Unknown Source)
+	at java.base/java.nio.file.Files.readAllBytes(Unknown Source)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem.getClassfileBytes(JRTUtil.java:330)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem.getClassfileContent(JRTUtil.java:311)
+	at org.eclipse.jdt.internal.compiler.util.JRTUtil.getClassfileContent(JRTUtil.java:153)
+	at org.eclipse.jdt.internal.core.AbstractClassFile.getClassFileContent(AbstractClassFile.java:187)
+	at org.eclipse.jdt.internal.core.ClassFile.getJarBinaryTypeInfo(ClassFile.java:226)
+	at org.eclipse.jdt.internal.core.ClassFile.getBinaryTypeInfo(ClassFile.java:187)
+	... 26 more
+Caused by: java.nio.channels.ClosedByInterruptException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(Unknown Source)
+	at java.base/java.nio.channels.Channels$ReadableByteChannelImpl.read(Unknown Source)
+	at jdk.internal.jrtfs.JrtFileSystem$1.read(JrtFileSystem.java:376)
+	at java.base/sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.base/sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.base/sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.base/java.nio.file.Files.read(Unknown Source)
+	at java.base/java.nio.file.Files.readAllBytes(Unknown Source)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem.getClassfileBytes(JRTUtil.java:330)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem.getClassfileContent(JRTUtil.java:311)
+	at org.eclipse.jdt.internal.compiler.util.JRTUtil.getClassfileContent(JRTUtil.java:153)
+	at org.eclipse.jdt.internal.core.AbstractClassFile.getClassFileContent(AbstractClassFile.java:187)
+	at org.eclipse.jdt.internal.core.ClassFile.getJarBinaryTypeInfo(ClassFile.java:226)
+	at org.eclipse.jdt.internal.core.ClassFile.getBinaryTypeInfo(ClassFile.java:187)
+	at org.eclipse.jdt.internal.core.ClassFile.buildStructure(ClassFile.java:75)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:259)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:583)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:320)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:306)
+	at org.eclipse.jdt.internal.core.BinaryType.getClassFileInfo(BinaryType.java:230)
+	at org.eclipse.jdt.internal.core.BinaryType.getChildren(BinaryType.java:193)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:275)
+	at org.eclipse.jdt.internal.core.BinaryType.getMethods(BinaryType.java:462)
+	at org.eclipse.jdt.internal.corext.util.MethodOverrideTester.findOverriddenMethodInType(MethodOverrideTester.java:195)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2$JavadocLookup$7.visit(JavadocContentAccess2.java:391)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2$InheritDocVisitor.visitInheritDoc(JavadocContentAccess2.java:203)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2$JavadocLookup.getInheritedDescription(JavadocContentAccess2.java:414)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2$JavadocLookup.getInheritedMainDescription(JavadocContentAccess2.java:308)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.elementToHTML(JavadocContentAccess2.java:1023)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.toHTML(JavadocContentAccess2.java:866)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.javadoc2HTML(JavadocContentAccess2.java:784)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContentFromSource(JavadocContentAccess2.java:662)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:534)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:757)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:675)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:667)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:164)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:86)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 985 2018-07-04 23:21:08.688
+!MESSAGE java.nio.channels.ClosedByInterruptException
+!STACK 0
+java.nio.channels.ClosedByInterruptException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(Unknown Source)
+	at java.base/java.nio.channels.Channels$ReadableByteChannelImpl.read(Unknown Source)
+	at jdk.internal.jrtfs.JrtFileSystem$1.read(JrtFileSystem.java:376)
+	at java.base/sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.base/sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.base/sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.base/java.nio.file.Files.read(Unknown Source)
+	at java.base/java.nio.file.Files.readAllBytes(Unknown Source)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem.getClassfileBytes(JRTUtil.java:330)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem.getClassfileContent(JRTUtil.java:311)
+	at org.eclipse.jdt.internal.compiler.util.JRTUtil.getClassfileContent(JRTUtil.java:153)
+	at org.eclipse.jdt.internal.core.AbstractClassFile.getClassFileContent(AbstractClassFile.java:187)
+	at org.eclipse.jdt.internal.core.ClassFile.getJarBinaryTypeInfo(ClassFile.java:226)
+	at org.eclipse.jdt.internal.core.ClassFile.getBinaryTypeInfo(ClassFile.java:187)
+	at org.eclipse.jdt.internal.core.ClassFile.buildStructure(ClassFile.java:75)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:259)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:583)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:320)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:306)
+	at org.eclipse.jdt.internal.core.BinaryType.getClassFileInfo(BinaryType.java:230)
+	at org.eclipse.jdt.internal.core.BinaryType.getChildren(BinaryType.java:193)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:275)
+	at org.eclipse.jdt.internal.core.BinaryType.getMethods(BinaryType.java:462)
+	at org.eclipse.jdt.internal.corext.util.MethodOverrideTester.findOverriddenMethodInType(MethodOverrideTester.java:195)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2$JavadocLookup$7.visit(JavadocContentAccess2.java:391)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2$InheritDocVisitor.visitInheritDoc(JavadocContentAccess2.java:203)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2$JavadocLookup.getInheritedDescription(JavadocContentAccess2.java:414)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2$JavadocLookup.getInheritedMainDescription(JavadocContentAccess2.java:308)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.elementToHTML(JavadocContentAccess2.java:1023)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.toHTML(JavadocContentAccess2.java:866)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.javadoc2HTML(JavadocContentAccess2.java:784)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContentFromSource(JavadocContentAccess2.java:662)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:534)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:757)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:675)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:667)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:164)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:86)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-07-04 23:21:08.885
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: java.nio.channels.ClosedByInterruptException
+	at org.eclipse.jdt.internal.core.ClassFile.getBinaryTypeInfo(ClassFile.java:199)
+	at org.eclipse.jdt.internal.core.ClassFile.buildStructure(ClassFile.java:75)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:259)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:583)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:320)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:306)
+	at org.eclipse.jdt.internal.core.BinaryType.getClassFileInfo(BinaryType.java:230)
+	at org.eclipse.jdt.internal.core.BinaryType.getChildren(BinaryType.java:193)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:275)
+	at org.eclipse.jdt.internal.core.BinaryType.getMethods(BinaryType.java:462)
+	at org.eclipse.jdt.internal.corext.util.MethodOverrideTester.findOverriddenMethodInType(MethodOverrideTester.java:195)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2$JavadocLookup$7.visit(JavadocContentAccess2.java:391)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2$InheritDocVisitor.visitInheritDoc(JavadocContentAccess2.java:203)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2$JavadocLookup.getInheritedDescription(JavadocContentAccess2.java:414)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2$JavadocLookup.getInheritedParamDescription(JavadocContentAccess2.java:344)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.inheritParameterDescriptions(JavadocContentAccess2.java:1159)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.elementToHTML(JavadocContentAccess2.java:1034)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.toHTML(JavadocContentAccess2.java:866)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.javadoc2HTML(JavadocContentAccess2.java:784)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContentFromSource(JavadocContentAccess2.java:662)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:534)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:757)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:675)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:667)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:164)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:86)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+Caused by: java.nio.channels.ClosedByInterruptException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(Unknown Source)
+	at java.base/java.nio.channels.Channels$ReadableByteChannelImpl.read(Unknown Source)
+	at jdk.internal.jrtfs.JrtFileSystem$1.read(JrtFileSystem.java:376)
+	at java.base/sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.base/sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.base/sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.base/java.nio.file.Files.read(Unknown Source)
+	at java.base/java.nio.file.Files.readAllBytes(Unknown Source)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem.getClassfileBytes(JRTUtil.java:330)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem.getClassfileContent(JRTUtil.java:311)
+	at org.eclipse.jdt.internal.compiler.util.JRTUtil.getClassfileContent(JRTUtil.java:153)
+	at org.eclipse.jdt.internal.core.AbstractClassFile.getClassFileContent(AbstractClassFile.java:187)
+	at org.eclipse.jdt.internal.core.ClassFile.getJarBinaryTypeInfo(ClassFile.java:226)
+	at org.eclipse.jdt.internal.core.ClassFile.getBinaryTypeInfo(ClassFile.java:187)
+	... 27 more
+Caused by: java.nio.channels.ClosedByInterruptException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(Unknown Source)
+	at java.base/java.nio.channels.Channels$ReadableByteChannelImpl.read(Unknown Source)
+	at jdk.internal.jrtfs.JrtFileSystem$1.read(JrtFileSystem.java:376)
+	at java.base/sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.base/sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.base/sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.base/java.nio.file.Files.read(Unknown Source)
+	at java.base/java.nio.file.Files.readAllBytes(Unknown Source)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem.getClassfileBytes(JRTUtil.java:330)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem.getClassfileContent(JRTUtil.java:311)
+	at org.eclipse.jdt.internal.compiler.util.JRTUtil.getClassfileContent(JRTUtil.java:153)
+	at org.eclipse.jdt.internal.core.AbstractClassFile.getClassFileContent(AbstractClassFile.java:187)
+	at org.eclipse.jdt.internal.core.ClassFile.getJarBinaryTypeInfo(ClassFile.java:226)
+	at org.eclipse.jdt.internal.core.ClassFile.getBinaryTypeInfo(ClassFile.java:187)
+	at org.eclipse.jdt.internal.core.ClassFile.buildStructure(ClassFile.java:75)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:259)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:583)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:320)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:306)
+	at org.eclipse.jdt.internal.core.BinaryType.getClassFileInfo(BinaryType.java:230)
+	at org.eclipse.jdt.internal.core.BinaryType.getChildren(BinaryType.java:193)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:275)
+	at org.eclipse.jdt.internal.core.BinaryType.getMethods(BinaryType.java:462)
+	at org.eclipse.jdt.internal.corext.util.MethodOverrideTester.findOverriddenMethodInType(MethodOverrideTester.java:195)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2$JavadocLookup$7.visit(JavadocContentAccess2.java:391)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2$InheritDocVisitor.visitInheritDoc(JavadocContentAccess2.java:203)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2$JavadocLookup.getInheritedDescription(JavadocContentAccess2.java:414)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2$JavadocLookup.getInheritedParamDescription(JavadocContentAccess2.java:344)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.inheritParameterDescriptions(JavadocContentAccess2.java:1159)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.elementToHTML(JavadocContentAccess2.java:1034)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.toHTML(JavadocContentAccess2.java:866)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.javadoc2HTML(JavadocContentAccess2.java:784)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContentFromSource(JavadocContentAccess2.java:662)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:534)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:757)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:675)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:667)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:164)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:86)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 985 2018-07-04 23:21:08.887
+!MESSAGE java.nio.channels.ClosedByInterruptException
+!STACK 0
+java.nio.channels.ClosedByInterruptException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(Unknown Source)
+	at java.base/java.nio.channels.Channels$ReadableByteChannelImpl.read(Unknown Source)
+	at jdk.internal.jrtfs.JrtFileSystem$1.read(JrtFileSystem.java:376)
+	at java.base/sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.base/sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.base/sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.base/java.nio.file.Files.read(Unknown Source)
+	at java.base/java.nio.file.Files.readAllBytes(Unknown Source)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem.getClassfileBytes(JRTUtil.java:330)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem.getClassfileContent(JRTUtil.java:311)
+	at org.eclipse.jdt.internal.compiler.util.JRTUtil.getClassfileContent(JRTUtil.java:153)
+	at org.eclipse.jdt.internal.core.AbstractClassFile.getClassFileContent(AbstractClassFile.java:187)
+	at org.eclipse.jdt.internal.core.ClassFile.getJarBinaryTypeInfo(ClassFile.java:226)
+	at org.eclipse.jdt.internal.core.ClassFile.getBinaryTypeInfo(ClassFile.java:187)
+	at org.eclipse.jdt.internal.core.ClassFile.buildStructure(ClassFile.java:75)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:259)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:583)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:320)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:306)
+	at org.eclipse.jdt.internal.core.BinaryType.getClassFileInfo(BinaryType.java:230)
+	at org.eclipse.jdt.internal.core.BinaryType.getChildren(BinaryType.java:193)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:275)
+	at org.eclipse.jdt.internal.core.BinaryType.getMethods(BinaryType.java:462)
+	at org.eclipse.jdt.internal.corext.util.MethodOverrideTester.findOverriddenMethodInType(MethodOverrideTester.java:195)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2$JavadocLookup$7.visit(JavadocContentAccess2.java:391)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2$InheritDocVisitor.visitInheritDoc(JavadocContentAccess2.java:203)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2$JavadocLookup.getInheritedDescription(JavadocContentAccess2.java:414)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2$JavadocLookup.getInheritedParamDescription(JavadocContentAccess2.java:344)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.inheritParameterDescriptions(JavadocContentAccess2.java:1159)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.elementToHTML(JavadocContentAccess2.java:1034)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.toHTML(JavadocContentAccess2.java:866)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.javadoc2HTML(JavadocContentAccess2.java:784)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContentFromSource(JavadocContentAccess2.java:662)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:534)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:757)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:675)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:667)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:164)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:86)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-07-04 23:21:08.933
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: java.nio.channels.ClosedByInterruptException
+	at org.eclipse.jdt.internal.core.ClassFile.getBinaryTypeInfo(ClassFile.java:199)
+	at org.eclipse.jdt.internal.core.ClassFile.buildStructure(ClassFile.java:75)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:259)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:583)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:320)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:306)
+	at org.eclipse.jdt.internal.core.BinaryType.getClassFileInfo(BinaryType.java:230)
+	at org.eclipse.jdt.internal.core.BinaryType.getChildren(BinaryType.java:193)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:275)
+	at org.eclipse.jdt.internal.core.BinaryType.getMethods(BinaryType.java:462)
+	at org.eclipse.jdt.internal.corext.util.MethodOverrideTester.findOverriddenMethodInType(MethodOverrideTester.java:195)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2$2.visit(JavadocContentAccess2.java:837)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2$InheritDocVisitor.visitInheritDoc(JavadocContentAccess2.java:203)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.findAttachedDocInHierarchy(JavadocContentAccess2.java:856)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:550)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:757)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:675)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:667)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:164)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:86)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+Caused by: java.nio.channels.ClosedByInterruptException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(Unknown Source)
+	at java.base/java.nio.channels.Channels$ReadableByteChannelImpl.read(Unknown Source)
+	at jdk.internal.jrtfs.JrtFileSystem$1.read(JrtFileSystem.java:376)
+	at java.base/sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.base/sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.base/sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.base/java.nio.file.Files.read(Unknown Source)
+	at java.base/java.nio.file.Files.readAllBytes(Unknown Source)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem.getClassfileBytes(JRTUtil.java:330)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem.getClassfileContent(JRTUtil.java:311)
+	at org.eclipse.jdt.internal.compiler.util.JRTUtil.getClassfileContent(JRTUtil.java:153)
+	at org.eclipse.jdt.internal.core.AbstractClassFile.getClassFileContent(AbstractClassFile.java:187)
+	at org.eclipse.jdt.internal.core.ClassFile.getJarBinaryTypeInfo(ClassFile.java:226)
+	at org.eclipse.jdt.internal.core.ClassFile.getBinaryTypeInfo(ClassFile.java:187)
+	... 21 more
+Caused by: java.nio.channels.ClosedByInterruptException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(Unknown Source)
+	at java.base/java.nio.channels.Channels$ReadableByteChannelImpl.read(Unknown Source)
+	at jdk.internal.jrtfs.JrtFileSystem$1.read(JrtFileSystem.java:376)
+	at java.base/sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.base/sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.base/sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.base/java.nio.file.Files.read(Unknown Source)
+	at java.base/java.nio.file.Files.readAllBytes(Unknown Source)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem.getClassfileBytes(JRTUtil.java:330)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem.getClassfileContent(JRTUtil.java:311)
+	at org.eclipse.jdt.internal.compiler.util.JRTUtil.getClassfileContent(JRTUtil.java:153)
+	at org.eclipse.jdt.internal.core.AbstractClassFile.getClassFileContent(AbstractClassFile.java:187)
+	at org.eclipse.jdt.internal.core.ClassFile.getJarBinaryTypeInfo(ClassFile.java:226)
+	at org.eclipse.jdt.internal.core.ClassFile.getBinaryTypeInfo(ClassFile.java:187)
+	at org.eclipse.jdt.internal.core.ClassFile.buildStructure(ClassFile.java:75)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:259)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:583)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:320)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:306)
+	at org.eclipse.jdt.internal.core.BinaryType.getClassFileInfo(BinaryType.java:230)
+	at org.eclipse.jdt.internal.core.BinaryType.getChildren(BinaryType.java:193)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:275)
+	at org.eclipse.jdt.internal.core.BinaryType.getMethods(BinaryType.java:462)
+	at org.eclipse.jdt.internal.corext.util.MethodOverrideTester.findOverriddenMethodInType(MethodOverrideTester.java:195)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2$2.visit(JavadocContentAccess2.java:837)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2$InheritDocVisitor.visitInheritDoc(JavadocContentAccess2.java:203)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.findAttachedDocInHierarchy(JavadocContentAccess2.java:856)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:550)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:757)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:675)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:667)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:164)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:86)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 985 2018-07-04 23:21:08.935
+!MESSAGE java.nio.channels.ClosedByInterruptException
+!STACK 0
+java.nio.channels.ClosedByInterruptException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(Unknown Source)
+	at java.base/java.nio.channels.Channels$ReadableByteChannelImpl.read(Unknown Source)
+	at jdk.internal.jrtfs.JrtFileSystem$1.read(JrtFileSystem.java:376)
+	at java.base/sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.base/sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.base/sun.nio.ch.ChannelInputStream.read(Unknown Source)
+	at java.base/java.nio.file.Files.read(Unknown Source)
+	at java.base/java.nio.file.Files.readAllBytes(Unknown Source)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem.getClassfileBytes(JRTUtil.java:330)
+	at org.eclipse.jdt.internal.compiler.util.JrtFileSystem.getClassfileContent(JRTUtil.java:311)
+	at org.eclipse.jdt.internal.compiler.util.JRTUtil.getClassfileContent(JRTUtil.java:153)
+	at org.eclipse.jdt.internal.core.AbstractClassFile.getClassFileContent(AbstractClassFile.java:187)
+	at org.eclipse.jdt.internal.core.ClassFile.getJarBinaryTypeInfo(ClassFile.java:226)
+	at org.eclipse.jdt.internal.core.ClassFile.getBinaryTypeInfo(ClassFile.java:187)
+	at org.eclipse.jdt.internal.core.ClassFile.buildStructure(ClassFile.java:75)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:259)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:583)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:320)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:306)
+	at org.eclipse.jdt.internal.core.BinaryType.getClassFileInfo(BinaryType.java:230)
+	at org.eclipse.jdt.internal.core.BinaryType.getChildren(BinaryType.java:193)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:275)
+	at org.eclipse.jdt.internal.core.BinaryType.getMethods(BinaryType.java:462)
+	at org.eclipse.jdt.internal.corext.util.MethodOverrideTester.findOverriddenMethodInType(MethodOverrideTester.java:195)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2$2.visit(JavadocContentAccess2.java:837)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2$InheritDocVisitor.visitInheritDoc(JavadocContentAccess2.java:203)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.findAttachedDocInHierarchy(JavadocContentAccess2.java:856)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:550)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:757)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:675)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:667)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:164)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:86)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-04 23:21:31.992
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-04 23:21:32.081
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-04 23:21:49.669
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-04 23:21:49.691
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2018-07-04 23:30:20.754 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180301-0715
+java.version=9.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-07-04 23:30:39.584
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-07-04 23:31:12.033
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Ashutosh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.osgi 2 0 2018-07-04 23:31:17.974
+!MESSAGE While loading class "org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer", thread "Thread[Worker-7,5,main]" timed out waiting (5003ms) for thread "Thread[Worker-9,5,main]" to finish starting bundle "org.eclipse.m2e.jdt_1.8.3.20180227-2137 [583]". To avoid deadlock, thread "Thread[Worker-7,5,main]" is proceeding but "org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; type="osgi.bundle"; version:Version="1.8.3.20180227-2137"; osgi.identity="org.eclipse.m2e.jdt"; singleton:="true" [id=583] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:337)
+	at org.eclipse.osgi.container.Module.start(Module.java:401)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:103)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:446)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.jdt.core.JavaCore.computeClasspathContainerInitializer(JavaCore.java:3595)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainerInitializer(JavaCore.java:3571)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:3093)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:3018)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:3056)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:2056)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3548)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2986)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:3150)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2255)
+	at org.eclipse.jdt.internal.core.ExternalFoldersManager.refreshReferences(ExternalFoldersManager.java:393)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2064)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:473)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:273)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:369)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1559)
+	at org.eclipse.core.internal.refresh.RefreshJob.runInWorkspace(RefreshJob.java:163)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:334)
+	... 38 more
+Root exception:
+java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:334)
+	at org.eclipse.osgi.container.Module.start(Module.java:401)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:103)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:446)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.jdt.core.JavaCore.computeClasspathContainerInitializer(JavaCore.java:3595)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainerInitializer(JavaCore.java:3571)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:3093)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:3018)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:3056)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:2056)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3548)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2986)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:3150)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2255)
+	at org.eclipse.jdt.internal.core.ExternalFoldersManager.refreshReferences(ExternalFoldersManager.java:393)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2064)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:473)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:273)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:369)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1559)
+	at org.eclipse.core.internal.refresh.RefreshJob.runInWorkspace(RefreshJob.java:163)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.osgi 2 0 2018-07-04 23:31:23.042
+!MESSAGE While loading class "org.eclipse.m2e.jdt.internal.MavenClasspathHelpers", thread "Thread[Worker-7,5,main]" timed out waiting (5002ms) for thread "Thread[Worker-9,5,main]" to finish starting bundle "org.eclipse.m2e.jdt_1.8.3.20180227-2137 [583]". To avoid deadlock, thread "Thread[Worker-7,5,main]" is proceeding but "org.eclipse.m2e.jdt.internal.MavenClasspathHelpers" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; type="osgi.bundle"; version:Version="1.8.3.20180227-2137"; osgi.identity="org.eclipse.m2e.jdt"; singleton:="true" [id=583] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:337)
+	at org.eclipse.osgi.container.Module.start(Module.java:401)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:103)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:446)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer.initialize(MavenClasspathContainerInitializer.java:44)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:3112)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:3018)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:3056)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:2056)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3548)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2986)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:3150)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2255)
+	at org.eclipse.jdt.internal.core.ExternalFoldersManager.refreshReferences(ExternalFoldersManager.java:393)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2064)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:473)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:273)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:369)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1559)
+	at org.eclipse.core.internal.refresh.RefreshJob.runInWorkspace(RefreshJob.java:163)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:334)
+	... 32 more
+Root exception:
+java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:334)
+	at org.eclipse.osgi.container.Module.start(Module.java:401)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:103)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:446)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer.initialize(MavenClasspathContainerInitializer.java:44)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:3112)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:3018)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:3056)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:2056)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3548)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2986)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:3150)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2255)
+	at org.eclipse.jdt.internal.core.ExternalFoldersManager.refreshReferences(ExternalFoldersManager.java:393)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2064)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:473)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:273)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:369)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1559)
+	at org.eclipse.core.internal.refresh.RefreshJob.runInWorkspace(RefreshJob.java:163)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.core.resources 4 2 2018-07-04 23:31:26.429
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer.getBuildPathManager(MavenClasspathContainerInitializer.java:80)
+	at org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer.initialize(MavenClasspathContainerInitializer.java:46)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:3112)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:3018)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:3056)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:2056)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3548)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2986)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:3150)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2255)
+	at org.eclipse.jdt.internal.core.ExternalFoldersManager.refreshReferences(ExternalFoldersManager.java:393)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2064)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:473)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:273)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:369)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1559)
+	at org.eclipse.core.internal.refresh.RefreshJob.runInWorkspace(RefreshJob.java:163)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-04 23:31:45.457
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-04 23:31:45.540
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-04 23:32:06.734
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-04 23:32:07.079
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2018-07-04 23:35:33.988
+!MESSAGE Several ports (8006, 8081, 8010) required by Tomcat v9.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2018-07-04 23:35:55.530
+!MESSAGE Publishing failed with multiple errors
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-07-04 23:35:55.567
+!MESSAGE Could not delete C:\Users\Ashutosh\eclipse-workspace1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\SocialHubMiddelware\WEB-INF\lib\antlr-2.7.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-07-04 23:35:55.567
+!MESSAGE Could not delete C:\Users\Ashutosh\eclipse-workspace1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\SocialHubMiddelware\WEB-INF\lib\classmate-1.3.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-07-04 23:35:55.569
+!MESSAGE Could not delete C:\Users\Ashutosh\eclipse-workspace1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\SocialHubMiddelware\WEB-INF\lib\commons-fileupload-1.3.3.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-07-04 23:35:55.569
+!MESSAGE Could not delete C:\Users\Ashutosh\eclipse-workspace1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\SocialHubMiddelware\WEB-INF\lib\commons-io-2.6.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-07-04 23:35:55.569
+!MESSAGE Could not delete C:\Users\Ashutosh\eclipse-workspace1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\SocialHubMiddelware\WEB-INF\lib\dom4j-1.6.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-07-04 23:35:55.569
+!MESSAGE Could not delete C:\Users\Ashutosh\eclipse-workspace1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\SocialHubMiddelware\WEB-INF\lib\hibernate-commons-annotations-5.0.1.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-07-04 23:35:55.570
+!MESSAGE Could not delete C:\Users\Ashutosh\eclipse-workspace1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\SocialHubMiddelware\WEB-INF\lib\hibernate-core-5.2.13.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-07-04 23:35:55.570
+!MESSAGE Could not delete C:\Users\Ashutosh\eclipse-workspace1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\SocialHubMiddelware\WEB-INF\lib\hibernate-jpa-2.1-api-1.0.0.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-07-04 23:35:55.570
+!MESSAGE Could not delete C:\Users\Ashutosh\eclipse-workspace1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\SocialHubMiddelware\WEB-INF\lib\jackson-annotations-2.9.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-07-04 23:35:55.570
+!MESSAGE Could not delete C:\Users\Ashutosh\eclipse-workspace1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\SocialHubMiddelware\WEB-INF\lib\jackson-core-2.9.6.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-07-04 23:35:55.570
+!MESSAGE Could not delete C:\Users\Ashutosh\eclipse-workspace1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\SocialHubMiddelware\WEB-INF\lib\jackson-databind-2.9.6.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-07-04 23:35:55.570
+!MESSAGE Could not delete C:\Users\Ashutosh\eclipse-workspace1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\SocialHubMiddelware\WEB-INF\lib\jandex-2.0.3.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-07-04 23:35:55.570
+!MESSAGE Could not delete C:\Users\Ashutosh\eclipse-workspace1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\SocialHubMiddelware\WEB-INF\lib\javassist-3.22.0-GA.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-07-04 23:35:55.570
+!MESSAGE Could not delete C:\Users\Ashutosh\eclipse-workspace1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\SocialHubMiddelware\WEB-INF\lib\javax.servlet-api-4.0.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-07-04 23:35:55.570
+!MESSAGE Could not delete C:\Users\Ashutosh\eclipse-workspace1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\SocialHubMiddelware\WEB-INF\lib\jaxb-api-2.3.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-07-04 23:35:55.570
+!MESSAGE Could not delete C:\Users\Ashutosh\eclipse-workspace1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\SocialHubMiddelware\WEB-INF\lib\jboss-logging-3.3.1.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-07-04 23:35:55.570
+!MESSAGE Could not delete C:\Users\Ashutosh\eclipse-workspace1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\SocialHubMiddelware\WEB-INF\lib\jboss-transaction-api_1.2_spec-1.0.1.Final.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-07-04 23:35:55.571
+!MESSAGE Could not delete C:\Users\Ashutosh\eclipse-workspace1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\SocialHubMiddelware\WEB-INF\lib\ojdbc6-11.2.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-07-04 23:35:55.571
+!MESSAGE Could not delete C:\Users\Ashutosh\eclipse-workspace1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\SocialHubMiddelware\WEB-INF\lib\slf4j-api-1.7.25.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-07-04 23:35:55.571
+!MESSAGE Could not delete C:\Users\Ashutosh\eclipse-workspace1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\SocialHubMiddelware\WEB-INF\lib\SocialHubBackEnd-0.0.1-SNAPSHOT.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-07-04 23:35:55.571
+!MESSAGE Could not delete C:\Users\Ashutosh\eclipse-workspace1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\SocialHubMiddelware\WEB-INF\lib\spring-aop-5.0.7.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-07-04 23:35:55.571
+!MESSAGE Could not delete C:\Users\Ashutosh\eclipse-workspace1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\SocialHubMiddelware\WEB-INF\lib\spring-beans-5.0.7.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-07-04 23:35:55.571
+!MESSAGE Could not delete C:\Users\Ashutosh\eclipse-workspace1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\SocialHubMiddelware\WEB-INF\lib\spring-context-5.0.7.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-07-04 23:35:55.571
+!MESSAGE Could not delete C:\Users\Ashutosh\eclipse-workspace1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\SocialHubMiddelware\WEB-INF\lib\spring-core-5.0.7.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-07-04 23:35:55.571
+!MESSAGE Could not delete C:\Users\Ashutosh\eclipse-workspace1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\SocialHubMiddelware\WEB-INF\lib\spring-expression-5.0.7.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-07-04 23:35:55.571
+!MESSAGE Could not delete C:\Users\Ashutosh\eclipse-workspace1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\SocialHubMiddelware\WEB-INF\lib\spring-jcl-5.0.7.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-07-04 23:35:55.571
+!MESSAGE Could not delete C:\Users\Ashutosh\eclipse-workspace1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\SocialHubMiddelware\WEB-INF\lib\spring-jdbc-5.0.4.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-07-04 23:35:55.571
+!MESSAGE Could not delete C:\Users\Ashutosh\eclipse-workspace1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\SocialHubMiddelware\WEB-INF\lib\spring-orm-5.0.4.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-07-04 23:35:55.571
+!MESSAGE Could not delete C:\Users\Ashutosh\eclipse-workspace1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\SocialHubMiddelware\WEB-INF\lib\spring-tx-5.0.4.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-07-04 23:35:55.572
+!MESSAGE Could not delete C:\Users\Ashutosh\eclipse-workspace1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\SocialHubMiddelware\WEB-INF\lib\spring-web-5.0.7.RELEASE.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2018-07-04 23:35:55.572
+!MESSAGE Could not delete C:\Users\Ashutosh\eclipse-workspace1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\SocialHubMiddelware\WEB-INF\lib\spring-webmvc-5.0.7.RELEASE.jar. May be locked by another process.
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2018-07-04 23:36:29.866
+!MESSAGE already installed: org.eclipse.jst.server.generic.jonas4
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2018-07-04 23:37:22.666
+!MESSAGE Several ports (8006, 8081, 8010) required by Tomcat v9.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2018-07-04 23:37:46.208
+!MESSAGE already installed: org.eclipse.jst.server.generic.jonas4
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2018-07-04 23:38:06.096
+!MESSAGE Port 8080 required by Tomcat v9.0 Server at localhost is already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2018-07-04 23:38:43.041
+!MESSAGE Several ports (8006, 8081, 8010) required by Tomcat v9.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2018-07-04 23:38:56.560
+!MESSAGE Several ports (8006, 8081, 8010) required by Tomcat v9.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2018-07-04 23:39:24.885
+!MESSAGE Several ports (8006, 8081, 8010) required by Tomcat v9.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+!SESSION 2018-07-04 23:46:50.333 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180301-0715
+java.version=9.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-07-04 23:48:25.955
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Ashutosh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.osgi 2 0 2018-07-04 23:48:28.595
+!MESSAGE While loading class "org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer", thread "Thread[Worker-1,5,main]" timed out waiting (5015ms) for thread "Thread[Worker-3,5,main]" to finish starting bundle "org.eclipse.m2e.jdt_1.8.3.20180227-2137 [583]". To avoid deadlock, thread "Thread[Worker-1,5,main]" is proceeding but "org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; type="osgi.bundle"; version:Version="1.8.3.20180227-2137"; osgi.identity="org.eclipse.m2e.jdt"; singleton:="true" [id=583] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:337)
+	at org.eclipse.osgi.container.Module.start(Module.java:401)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:103)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:446)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.jdt.core.JavaCore.computeClasspathContainerInitializer(JavaCore.java:3595)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainerInitializer(JavaCore.java:3571)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:3093)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:3018)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:3058)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:2056)
+	at org.eclipse.jdt.core.JavaCore.initializeAfterLoad(JavaCore.java:4310)
+	at org.eclipse.jdt.internal.ui.InitializeAfterLoadJob$RealJob.run(InitializeAfterLoadJob.java:36)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:334)
+	... 27 more
+Root exception:
+java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:334)
+	at org.eclipse.osgi.container.Module.start(Module.java:401)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:103)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:446)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.jdt.core.JavaCore.computeClasspathContainerInitializer(JavaCore.java:3595)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainerInitializer(JavaCore.java:3571)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:3093)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:3018)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:3058)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:2056)
+	at org.eclipse.jdt.core.JavaCore.initializeAfterLoad(JavaCore.java:4310)
+	at org.eclipse.jdt.internal.ui.InitializeAfterLoadJob$RealJob.run(InitializeAfterLoadJob.java:36)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.osgi 2 0 2018-07-04 23:48:31.831
+!MESSAGE While loading class "org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer", thread "Thread[main,6,main]" timed out waiting (5016ms) for thread "Thread[Worker-3,5,main]" to finish starting bundle "org.eclipse.m2e.jdt_1.8.3.20180227-2137 [583]". To avoid deadlock, thread "Thread[main,6,main]" is proceeding but "org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; type="osgi.bundle"; version:Version="1.8.3.20180227-2137"; osgi.identity="org.eclipse.m2e.jdt"; singleton:="true" [id=583] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:337)
+	at org.eclipse.osgi.container.Module.start(Module.java:401)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:103)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:446)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.jdt.core.JavaCore.computeClasspathContainerInitializer(JavaCore.java:3595)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainerInitializer(JavaCore.java:3571)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:3093)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:3018)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:3058)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:2056)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3548)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2986)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:3150)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2255)
+	at org.eclipse.jdt.internal.core.DynamicProjectReferences.getDependentProjects(DynamicProjectReferences.java:34)
+	at org.eclipse.core.internal.resources.ProjectDescription.computeDynamicReferencesForProject(ProjectDescription.java:950)
+	at org.eclipse.core.internal.resources.ProjectDescription.getAllBuildConfigReferences(ProjectDescription.java:265)
+	at org.eclipse.core.internal.resources.ProjectDescription.getAllReferences(ProjectDescription.java:221)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:469)
+	at org.eclipse.ui.actions.CloseUnrelatedProjectsAction.buildConnectedComponents(CloseUnrelatedProjectsAction.java:78)
+	at org.eclipse.ui.actions.CloseUnrelatedProjectsAction.computeRelated(CloseUnrelatedProjectsAction.java:195)
+	at org.eclipse.ui.actions.CloseUnrelatedProjectsAction.getSelectedResources(CloseUnrelatedProjectsAction.java:212)
+	at org.eclipse.ui.actions.SelectionListenerAction.selectionIsOfType(SelectionListenerAction.java:240)
+	at org.eclipse.ui.actions.CloseResourceAction.updateSelection(CloseResourceAction.java:187)
+	at org.eclipse.ui.actions.BaseSelectionListenerAction.selectionChanged(BaseSelectionListenerAction.java:124)
+	at org.eclipse.ui.internal.navigator.resources.actions.ResourceMgmtActionProvider.updateActionBars(ResourceMgmtActionProvider.java:254)
+	at org.eclipse.ui.internal.navigator.resources.actions.ResourceMgmtActionProvider.fillActionBars(ResourceMgmtActionProvider.java:84)
+	at org.eclipse.ui.navigator.NavigatorActionService$3.run(NavigatorActionService.java:265)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.navigator.NavigatorActionService.fillActionBars(NavigatorActionService.java:258)
+	at org.eclipse.ui.navigator.CommonNavigatorManager$UpdateActionBarsJob$1.run(CommonNavigatorManager.java:95)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.navigator.CommonNavigatorManager$UpdateActionBarsJob.runInUIThread(CommonNavigatorManager.java:89)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1472)
+Caused by: java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:334)
+	... 74 more
+Root exception:
+java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:334)
+	at org.eclipse.osgi.container.Module.start(Module.java:401)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:103)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:446)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.jdt.core.JavaCore.computeClasspathContainerInitializer(JavaCore.java:3595)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainerInitializer(JavaCore.java:3571)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:3093)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:3018)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:3058)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:2056)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3548)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2986)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:3150)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2255)
+	at org.eclipse.jdt.internal.core.DynamicProjectReferences.getDependentProjects(DynamicProjectReferences.java:34)
+	at org.eclipse.core.internal.resources.ProjectDescription.computeDynamicReferencesForProject(ProjectDescription.java:950)
+	at org.eclipse.core.internal.resources.ProjectDescription.getAllBuildConfigReferences(ProjectDescription.java:265)
+	at org.eclipse.core.internal.resources.ProjectDescription.getAllReferences(ProjectDescription.java:221)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:469)
+	at org.eclipse.ui.actions.CloseUnrelatedProjectsAction.buildConnectedComponents(CloseUnrelatedProjectsAction.java:78)
+	at org.eclipse.ui.actions.CloseUnrelatedProjectsAction.computeRelated(CloseUnrelatedProjectsAction.java:195)
+	at org.eclipse.ui.actions.CloseUnrelatedProjectsAction.getSelectedResources(CloseUnrelatedProjectsAction.java:212)
+	at org.eclipse.ui.actions.SelectionListenerAction.selectionIsOfType(SelectionListenerAction.java:240)
+	at org.eclipse.ui.actions.CloseResourceAction.updateSelection(CloseResourceAction.java:187)
+	at org.eclipse.ui.actions.BaseSelectionListenerAction.selectionChanged(BaseSelectionListenerAction.java:124)
+	at org.eclipse.ui.internal.navigator.resources.actions.ResourceMgmtActionProvider.updateActionBars(ResourceMgmtActionProvider.java:254)
+	at org.eclipse.ui.internal.navigator.resources.actions.ResourceMgmtActionProvider.fillActionBars(ResourceMgmtActionProvider.java:84)
+	at org.eclipse.ui.navigator.NavigatorActionService$3.run(NavigatorActionService.java:265)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.navigator.NavigatorActionService.fillActionBars(NavigatorActionService.java:258)
+	at org.eclipse.ui.navigator.CommonNavigatorManager$UpdateActionBarsJob$1.run(CommonNavigatorManager.java:95)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.navigator.CommonNavigatorManager$UpdateActionBarsJob.runInUIThread(CommonNavigatorManager.java:89)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1472)
+
+!ENTRY org.eclipse.osgi 2 0 2018-07-04 23:48:33.800
+!MESSAGE While loading class "org.eclipse.m2e.jdt.internal.MavenClasspathHelpers", thread "Thread[Worker-1,5,main]" timed out waiting (5002ms) for thread "Thread[Worker-3,5,main]" to finish starting bundle "org.eclipse.m2e.jdt_1.8.3.20180227-2137 [583]". To avoid deadlock, thread "Thread[Worker-1,5,main]" is proceeding but "org.eclipse.m2e.jdt.internal.MavenClasspathHelpers" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; type="osgi.bundle"; version:Version="1.8.3.20180227-2137"; osgi.identity="org.eclipse.m2e.jdt"; singleton:="true" [id=583] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:337)
+	at org.eclipse.osgi.container.Module.start(Module.java:401)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:103)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:446)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer.initialize(MavenClasspathContainerInitializer.java:44)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:3112)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:3018)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:3058)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:2056)
+	at org.eclipse.jdt.core.JavaCore.initializeAfterLoad(JavaCore.java:4310)
+	at org.eclipse.jdt.internal.ui.InitializeAfterLoadJob$RealJob.run(InitializeAfterLoadJob.java:36)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:334)
+	... 21 more
+Root exception:
+java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:334)
+	at org.eclipse.osgi.container.Module.start(Module.java:401)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:103)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:368)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:446)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer.initialize(MavenClasspathContainerInitializer.java:44)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:3112)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:3018)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:3058)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:2056)
+	at org.eclipse.jdt.core.JavaCore.initializeAfterLoad(JavaCore.java:4310)
+	at org.eclipse.jdt.internal.ui.InitializeAfterLoadJob$RealJob.run(InitializeAfterLoadJob.java:36)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.core.resources 4 2 2018-07-04 23:48:38.785
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer.initialize(MavenClasspathContainerInitializer.java:46)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:3112)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:3018)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:3056)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:2056)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3548)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2986)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:3150)
+	at org.eclipse.jdt.internal.core.ClasspathChange.generateDelta(ClasspathChange.java:239)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2100)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:473)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2253)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.ui.navigator 4 2 2018-07-04 23:48:43.185
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.navigator".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer.getBuildPathManager(MavenClasspathContainerInitializer.java:80)
+	at org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer.initialize(MavenClasspathContainerInitializer.java:46)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:3112)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:3018)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:3058)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:2056)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3548)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2986)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:3150)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2255)
+	at org.eclipse.jdt.internal.core.DynamicProjectReferences.getDependentProjects(DynamicProjectReferences.java:34)
+	at org.eclipse.core.internal.resources.ProjectDescription.computeDynamicReferencesForProject(ProjectDescription.java:950)
+	at org.eclipse.core.internal.resources.ProjectDescription.getAllBuildConfigReferences(ProjectDescription.java:265)
+	at org.eclipse.core.internal.resources.ProjectDescription.getAllReferences(ProjectDescription.java:221)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:469)
+	at org.eclipse.ui.actions.CloseUnrelatedProjectsAction.buildConnectedComponents(CloseUnrelatedProjectsAction.java:78)
+	at org.eclipse.ui.actions.CloseUnrelatedProjectsAction.computeRelated(CloseUnrelatedProjectsAction.java:195)
+	at org.eclipse.ui.actions.CloseUnrelatedProjectsAction.getSelectedResources(CloseUnrelatedProjectsAction.java:212)
+	at org.eclipse.ui.actions.SelectionListenerAction.selectionIsOfType(SelectionListenerAction.java:240)
+	at org.eclipse.ui.actions.CloseResourceAction.updateSelection(CloseResourceAction.java:187)
+	at org.eclipse.ui.actions.BaseSelectionListenerAction.selectionChanged(BaseSelectionListenerAction.java:124)
+	at org.eclipse.ui.internal.navigator.resources.actions.ResourceMgmtActionProvider.updateActionBars(ResourceMgmtActionProvider.java:254)
+	at org.eclipse.ui.internal.navigator.resources.actions.ResourceMgmtActionProvider.fillActionBars(ResourceMgmtActionProvider.java:84)
+	at org.eclipse.ui.navigator.NavigatorActionService$3.run(NavigatorActionService.java:265)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.navigator.NavigatorActionService.fillActionBars(NavigatorActionService.java:258)
+	at org.eclipse.ui.navigator.CommonNavigatorManager$UpdateActionBarsJob$1.run(CommonNavigatorManager.java:95)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.navigator.CommonNavigatorManager$UpdateActionBarsJob.runInUIThread(CommonNavigatorManager.java:89)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1472)
+
+!ENTRY org.eclipse.core.jobs 4 2 2018-07-04 23:48:43.235
+!MESSAGE An internal error occurred during: "Initializing Java Tooling".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer.getBuildPathManager(MavenClasspathContainerInitializer.java:80)
+	at org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer.initialize(MavenClasspathContainerInitializer.java:46)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:3112)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:3018)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:3058)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:2056)
+	at org.eclipse.jdt.core.JavaCore.initializeAfterLoad(JavaCore.java:4310)
+	at org.eclipse.jdt.internal.ui.InitializeAfterLoadJob$RealJob.run(InitializeAfterLoadJob.java:36)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.ui.navigator 4 0 2018-07-04 23:48:43.387
+!MESSAGE java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer.getBuildPathManager(MavenClasspathContainerInitializer.java:80)
+	at org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer.initialize(MavenClasspathContainerInitializer.java:46)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:3112)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:3018)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:3058)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:2056)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3548)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2986)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:3150)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2255)
+	at org.eclipse.jdt.internal.core.DynamicProjectReferences.getDependentProjects(DynamicProjectReferences.java:34)
+	at org.eclipse.core.internal.resources.ProjectDescription.computeDynamicReferencesForProject(ProjectDescription.java:950)
+	at org.eclipse.core.internal.resources.ProjectDescription.getAllBuildConfigReferences(ProjectDescription.java:265)
+	at org.eclipse.core.internal.resources.ProjectDescription.getAllReferences(ProjectDescription.java:221)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:469)
+	at org.eclipse.ui.actions.CloseUnrelatedProjectsAction.buildConnectedComponents(CloseUnrelatedProjectsAction.java:78)
+	at org.eclipse.ui.actions.CloseUnrelatedProjectsAction.computeRelated(CloseUnrelatedProjectsAction.java:195)
+	at org.eclipse.ui.actions.CloseUnrelatedProjectsAction.getSelectedResources(CloseUnrelatedProjectsAction.java:212)
+	at org.eclipse.ui.actions.SelectionListenerAction.selectionIsOfType(SelectionListenerAction.java:240)
+	at org.eclipse.ui.actions.CloseResourceAction.updateSelection(CloseResourceAction.java:187)
+	at org.eclipse.ui.actions.BaseSelectionListenerAction.selectionChanged(BaseSelectionListenerAction.java:124)
+	at org.eclipse.ui.internal.navigator.resources.actions.ResourceMgmtActionProvider.updateActionBars(ResourceMgmtActionProvider.java:254)
+	at org.eclipse.ui.internal.navigator.resources.actions.ResourceMgmtActionProvider.fillActionBars(ResourceMgmtActionProvider.java:84)
+	at org.eclipse.ui.navigator.NavigatorActionService$3.run(NavigatorActionService.java:265)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.navigator.NavigatorActionService.fillActionBars(NavigatorActionService.java:258)
+	at org.eclipse.ui.navigator.CommonNavigatorManager$UpdateActionBarsJob$1.run(CommonNavigatorManager.java:95)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.navigator.CommonNavigatorManager$UpdateActionBarsJob.runInUIThread(CommonNavigatorManager.java:89)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1472)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-04 23:49:02.425
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-04 23:49:02.508
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-04 23:54:36.613
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-04 23:54:36.753
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-04 23:54:38.753
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-04 23:54:38.894
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-04 23:54:39.003
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-04 23:55:39.101
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-04 23:55:39.383
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-04 23:56:33.340
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-04 23:56:33.402
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-04 23:56:33.574
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-04 23:56:57.313
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-04 23:56:57.375
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-04 23:59:35.855
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-04 23:59:35.902
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-04 23:59:37.574
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-04 23:59:37.621
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-04 23:59:37.668
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-04 23:59:44.637
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-04 23:59:44.653
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-04 23:59:44.700
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 00:00:02.941
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 00:00:02.972
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 00:00:48.420
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 00:00:48.452
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2018-07-05 00:01:51.952
+!MESSAGE already installed: org.eclipse.jst.server.generic.jonas4
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2018-07-05 00:02:12.344
+!MESSAGE Port 8080 required by Tomcat v9.0 Server at localhost is already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 00:03:26.508
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 00:03:26.571
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 00:03:27.836
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 00:03:27.883
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 00:03:27.915
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 00:10:18.499
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 00:10:18.546
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 00:14:28.178
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 00:14:28.209
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jface.text 2 0 2018-07-05 00:16:37.056
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-07-05 00:16:37.071
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 00:16:57.793
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 00:16:57.856
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 00:17:14.313
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 00:17:14.423
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 00:22:20.888
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 00:22:20.935
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 00:22:42.902
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 00:22:42.949
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 00:27:13.265
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 00:27:13.312
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 00:29:09.301
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 00:29:09.332
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 00:30:01.110
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 00:30:01.157
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 00:35:40.474
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 00:35:40.694
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 00:36:08.704
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 00:36:08.907
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 00:39:21.553
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 00:39:21.803
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 00:39:35.516
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 00:39:35.594
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 00:39:47.652
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 00:39:47.699
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 00:47:46.166
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 00:47:46.369
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 01:03:58.128
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 01:03:58.393
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 01:17:45.228
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 01:17:45.368
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.wst.server.core 4 0 2018-07-05 01:17:52.161
+!MESSAGE Could not delete C:/Users/Ashutosh/eclipse-workspace1/.metadata/.plugins/org.eclipse.wst.server.core/tmp2/wtpwebapps/SocialHubMiddelware/WEB-INF/lib/jackson-core-2.9.6.jar. May be locked by another process.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 01:17:52.724
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 01:17:52.771
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.wst.server.core 4 0 2018-07-05 01:17:54.505
+!MESSAGE Could not delete C:/Users/Ashutosh/eclipse-workspace1/.metadata/.plugins/org.eclipse.wst.server.core/tmp2/wtpwebapps/SocialHubMiddelware/WEB-INF/lib/jackson-core-2.9.6.jar. May be locked by another process.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 01:17:55.536
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 01:17:56.186
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 01:18:17.768
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 01:18:17.783
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!

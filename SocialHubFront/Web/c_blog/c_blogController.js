@@ -1,4 +1,4 @@
-myApp.controller("c_blogController", function($scope, $http, $rootScope, $location)
+myApp.controller("c_blogController", function($scope, $http, $rootScope, $location,$route)
 {
 	$scope.blog = {'blogname':'', 'blogcontent':'', 'createdate':'', 'loginname':'', 'status':'', 'likes':0, 'dislikes':0, 'blogId':0}
 	$scope.blogComment = {'blogid':'','commenttext':'', 'loginname':'', 'commentdate':'','commentid':'' }
@@ -90,6 +90,7 @@ myApp.controller("c_blogController", function($scope, $http, $rootScope, $locati
 		.then(function(response)
 				{
 					$route.reload();
+					alert("Thank u for commenting");
 					console.log("commented succesfully");
 				});
 }

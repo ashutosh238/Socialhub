@@ -1228,3 +1228,229 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected > 
 2018-07-04 16:12:00,768 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2018-07-04 16:12:00,847 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2018-07-04 16:12:00,878 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubMiddelware\src\test\resources
+2018-07-04 23:05:31,357 [Worker-4] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-07-04 23:06:02,801 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-04 23:06:02,836 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-04 23:06:02,842 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-04 23:06:02,861 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubMiddelware\src\test\resources
+2018-07-04 23:21:31,990 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-04 23:21:32,075 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-04 23:21:32,078 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-04 23:21:32,167 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubMiddelware\src\test\resources
+2018-07-04 23:21:49,667 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-04 23:21:49,687 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-04 23:21:49,690 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-04 23:21:49,707 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubMiddelware\src\test\resources
+2018-07-04 23:31:11,859 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-07-04 23:31:45,454 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-04 23:31:45,523 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\src\main\resources
+2018-07-04 23:31:45,539 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-04 23:31:45,598 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\src\test\resources
+2018-07-04 23:32:06,733 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-04 23:32:07,034 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-04 23:32:07,078 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-04 23:32:07,098 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubMiddelware\src\test\resources
+2018-07-04 23:48:22,080 [Worker-6] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-07-04 23:49:02,420 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-04 23:49:02,501 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-04 23:49:02,507 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-04 23:49:02,521 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubMiddelware\src\test\resources
+2018-07-04 23:54:21,860 [Worker-18] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-07-04 23:54:27,751 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ashutosh:SocialHubBackEnd:0.0.1-SNAPSHOT @ C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\pom.xml.
+2018-07-04 23:54:28,313 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.ashutosh:SocialHubMiddelware:0.0.1-SNAPSHOT @ C:\Users\Ashutosh\eclipse-workspace1\SocialHubMiddelware\pom.xml.
+2018-07-04 23:54:30,657 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SocialHubBackEnd/src/main/java
+2018-07-04 23:54:30,672 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SocialHubBackEnd/src/test/java
+2018-07-04 23:54:30,891 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SocialHubMiddelware/src/main/java
+2018-07-04 23:54:30,891 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SocialHubMiddelware/src/main/resources
+2018-07-04 23:54:30,891 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SocialHubMiddelware/src/test/java
+2018-07-04 23:54:34,081 [Worker-18] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for SocialHubMiddelware
+2018-07-04 23:54:34,097 [Worker-18] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 12 sec
+2018-07-04 23:54:36,488 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-04 23:54:36,753 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\src\main\resources
+2018-07-04 23:54:36,753 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-04 23:54:36,769 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\src\test\resources
+2018-07-04 23:54:38,675 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-04 23:54:38,862 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-04 23:54:38,878 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-04 23:54:38,909 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubMiddelware\src\test\resources
+2018-07-04 23:54:38,909 [Worker-17] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SocialHubMiddelware
+2018-07-04 23:54:39,003 [Worker-17] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SocialHubMiddelware
+2018-07-04 23:54:39,003 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-04 23:55:39,101 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-04 23:55:39,242 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-04 23:55:39,383 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-04 23:55:39,398 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubMiddelware\src\test\resources
+2018-07-04 23:56:27,318 [Worker-19] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Ashutosh\eclipse-workspace1\SocialHubMiddelware
+2018-07-04 23:56:27,318 [Worker-19] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2018-07-04 23:56:33,324 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-04 23:56:33,371 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-04 23:56:33,402 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-04 23:56:33,418 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubMiddelware\src\test\resources
+2018-07-04 23:56:33,434 [Worker-18] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SocialHubMiddelware
+2018-07-04 23:56:33,434 [Worker-18] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SocialHubMiddelware
+2018-07-04 23:56:33,574 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-04 23:56:44,202 [Worker-17] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Ashutosh\eclipse-workspace1\SocialHubMiddelware
+2018-07-04 23:56:44,202 [Worker-17] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-07-04 23:56:57,297 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-04 23:56:57,344 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-04 23:56:57,360 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-04 23:56:57,391 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubMiddelware\src\test\resources
+2018-07-04 23:59:26,497 [Worker-16] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-07-04 23:59:28,481 [Worker-16] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ashutosh:SocialHubBackEnd:0.0.1-SNAPSHOT @ C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\pom.xml.
+2018-07-04 23:59:28,918 [Worker-16] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.ashutosh:SocialHubMiddelware:0.0.1-SNAPSHOT @ C:\Users\Ashutosh\eclipse-workspace1\SocialHubMiddelware\pom.xml.
+2018-07-04 23:59:31,231 [Worker-16] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SocialHubBackEnd/src/main/java
+2018-07-04 23:59:31,246 [Worker-16] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SocialHubBackEnd/src/test/java
+2018-07-04 23:59:31,403 [Worker-16] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SocialHubMiddelware/src/main/java
+2018-07-04 23:59:31,403 [Worker-16] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SocialHubMiddelware/src/main/resources
+2018-07-04 23:59:31,418 [Worker-16] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SocialHubMiddelware/src/test/java
+2018-07-04 23:59:34,199 [Worker-16] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for SocialHubMiddelware
+2018-07-04 23:59:34,215 [Worker-16] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 7 sec
+2018-07-04 23:59:35,855 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-04 23:59:35,871 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\src\main\resources
+2018-07-04 23:59:35,887 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-04 23:59:35,918 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\src\test\resources
+2018-07-04 23:59:37,574 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-04 23:59:37,590 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-04 23:59:37,605 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-04 23:59:37,637 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubMiddelware\src\test\resources
+2018-07-04 23:59:37,637 [Worker-0] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SocialHubMiddelware
+2018-07-04 23:59:37,652 [Worker-0] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SocialHubMiddelware
+2018-07-04 23:59:37,668 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-04 23:59:40,986 [Worker-23] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Ashutosh\eclipse-workspace1\SocialHubMiddelware
+2018-07-04 23:59:40,986 [Worker-23] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2018-07-04 23:59:44,637 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-04 23:59:44,653 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-04 23:59:44,653 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-04 23:59:44,669 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubMiddelware\src\test\resources
+2018-07-04 23:59:44,684 [Worker-16] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SocialHubMiddelware
+2018-07-04 23:59:44,684 [Worker-16] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SocialHubMiddelware
+2018-07-04 23:59:44,700 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-04 23:59:55,574 [Worker-0] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Ashutosh\eclipse-workspace1\SocialHubMiddelware
+2018-07-04 23:59:55,590 [Worker-0] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-07-05 00:00:02,909 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 00:00:02,956 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-05 00:00:02,956 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 00:00:02,987 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubMiddelware\src\test\resources
+2018-07-05 00:00:48,420 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 00:00:48,452 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-05 00:00:48,452 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 00:00:48,467 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubMiddelware\src\test\resources
+2018-07-05 00:03:18,164 [Worker-22] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-07-05 00:03:18,884 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ashutosh:SocialHubBackEnd:0.0.1-SNAPSHOT @ C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\pom.xml.
+2018-07-05 00:03:19,134 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.ashutosh:SocialHubMiddelware:0.0.1-SNAPSHOT @ C:\Users\Ashutosh\eclipse-workspace1\SocialHubMiddelware\pom.xml.
+2018-07-05 00:03:21,087 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SocialHubBackEnd/src/main/java
+2018-07-05 00:03:21,102 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SocialHubBackEnd/src/test/java
+2018-07-05 00:03:21,212 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SocialHubMiddelware/src/main/java
+2018-07-05 00:03:21,212 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SocialHubMiddelware/src/main/resources
+2018-07-05 00:03:21,227 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SocialHubMiddelware/src/test/java
+2018-07-05 00:03:24,180 [Worker-22] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for SocialHubMiddelware
+2018-07-05 00:03:24,212 [Worker-22] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 6 sec
+2018-07-05 00:03:26,493 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 00:03:26,524 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\src\main\resources
+2018-07-05 00:03:26,555 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 00:03:26,587 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\src\test\resources
+2018-07-05 00:03:27,696 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 00:03:27,852 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-05 00:03:27,868 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 00:03:27,899 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubMiddelware\src\test\resources
+2018-07-05 00:03:27,899 [Worker-24] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SocialHubMiddelware
+2018-07-05 00:03:27,915 [Worker-24] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SocialHubMiddelware
+2018-07-05 00:03:27,915 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 00:10:18,499 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 00:10:18,514 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-05 00:10:18,530 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 00:10:18,546 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubMiddelware\src\test\resources
+2018-07-05 00:14:28,178 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 00:14:28,194 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-05 00:14:28,209 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 00:14:28,225 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubMiddelware\src\test\resources
+2018-07-05 00:16:57,793 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 00:16:57,809 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-05 00:16:57,824 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 00:16:57,871 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubMiddelware\src\test\resources
+2018-07-05 00:17:14,313 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 00:17:14,345 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-05 00:17:14,392 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 00:17:14,438 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubMiddelware\src\test\resources
+2018-07-05 00:22:20,888 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 00:22:20,903 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-05 00:22:20,919 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 00:22:20,935 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubMiddelware\src\test\resources
+2018-07-05 00:22:42,902 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 00:22:42,918 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-05 00:22:42,933 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 00:22:42,964 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubMiddelware\src\test\resources
+2018-07-05 00:27:13,265 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 00:27:13,281 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-05 00:27:13,297 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 00:27:13,312 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubMiddelware\src\test\resources
+2018-07-05 00:29:09,301 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 00:29:09,316 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-05 00:29:09,316 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 00:29:09,332 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubMiddelware\src\test\resources
+2018-07-05 00:30:01,110 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 00:30:01,126 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-05 00:30:01,141 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 00:30:01,173 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubMiddelware\src\test\resources
+2018-07-05 00:35:40,474 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 00:35:40,584 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-05 00:35:40,694 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 00:35:40,709 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubMiddelware\src\test\resources
+2018-07-05 00:36:08,704 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 00:36:08,813 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-05 00:36:08,891 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 00:36:08,922 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubMiddelware\src\test\resources
+2018-07-05 00:39:21,553 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 00:39:21,663 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-05 00:39:21,803 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 00:39:21,819 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubMiddelware\src\test\resources
+2018-07-05 00:39:35,516 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 00:39:35,532 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-05 00:39:35,579 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 00:39:35,626 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubMiddelware\src\test\resources
+2018-07-05 00:39:47,652 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 00:39:47,668 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-05 00:39:47,683 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 00:39:47,715 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubMiddelware\src\test\resources
+2018-07-05 00:47:46,150 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 00:47:46,260 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-05 00:47:46,353 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 00:47:46,385 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubMiddelware\src\test\resources
+2018-07-05 01:03:58,128 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 01:03:58,299 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-05 01:03:58,393 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 01:03:58,409 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubMiddelware\src\test\resources
+2018-07-05 01:17:31,133 [Worker-66] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ashutosh:SocialHubBackEnd:0.0.1-SNAPSHOT @ C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\pom.xml.
+2018-07-05 01:17:34,820 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.5/jackson-databind-2.9.5.pom
+2018-07-05 01:17:35,367 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.5/jackson-databind-2.9.5.pom
+2018-07-05 01:17:35,664 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.9.5/jackson-base-2.9.5.pom
+2018-07-05 01:17:36,024 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.9.5/jackson-base-2.9.5.pom
+2018-07-05 01:17:36,320 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.9.5/jackson-bom-2.9.5.pom
+2018-07-05 01:17:36,867 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.9.5/jackson-bom-2.9.5.pom
+2018-07-05 01:17:37,164 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.9.1/jackson-parent-2.9.1.pom
+2018-07-05 01:17:37,492 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.9.1/jackson-parent-2.9.1.pom
+2018-07-05 01:17:37,789 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/30/oss-parent-30.pom
+2018-07-05 01:17:38,164 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/30/oss-parent-30.pom
+2018-07-05 01:17:38,539 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.5/jackson-core-2.9.5.pom
+2018-07-05 01:17:38,822 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.5/jackson-core-2.9.5.pom
+2018-07-05 01:17:39,165 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.5/jackson-databind-2.9.5.jar
+2018-07-05 01:17:41,587 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.5/jackson-databind-2.9.5.jar
+2018-07-05 01:17:41,853 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.5/jackson-core-2.9.5.jar
+2018-07-05 01:17:42,384 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.5/jackson-core-2.9.5.jar
+2018-07-05 01:17:43,728 [Worker-66] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.ashutosh:SocialHubMiddelware:0.0.1-SNAPSHOT @ C:\Users\Ashutosh\eclipse-workspace1\SocialHubMiddelware\pom.xml.
+2018-07-05 01:17:45,212 [Worker-66] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 01:17:45,353 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\src\main\resources
+2018-07-05 01:17:45,353 [Worker-66] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 01:17:45,399 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\src\test\resources
+2018-07-05 01:17:52,708 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 01:17:52,771 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\src\main\resources
+2018-07-05 01:17:52,771 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 01:17:52,802 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\src\test\resources
+2018-07-05 01:17:55,239 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 01:17:56,083 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-05 01:17:56,171 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 01:17:56,202 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubMiddelware\src\test\resources
+2018-07-05 01:18:17,768 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 01:18:17,783 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\src\main\resources
+2018-07-05 01:18:17,783 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 01:18:17,799 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\src\test\resources

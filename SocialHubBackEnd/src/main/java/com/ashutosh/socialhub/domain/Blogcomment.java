@@ -10,6 +10,8 @@ import javax.persistence.Table;
 
 import org.springframework.stereotype.Component;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 @Component
 @Entity
 @Table
@@ -26,6 +28,7 @@ public class Blogcomment {
 	private String commenttext;
 	
 	private String loginname;
+	@JsonFormat(shape=JsonFormat.Shape.STRING, pattern="dd-MM-yyyy")
 	private Date commentdate;
 	public int getCommentid() {
 		return commentid;

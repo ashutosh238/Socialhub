@@ -74,15 +74,17 @@ public class ProductRestController
 		
 		
 		@GetMapping("/getBlog/{blogid}")
-		public ResponseEntity<Blog> getBlog(@PathVariable("blogid")int blogid)
+		public ResponseEntity<Blog> getBlog(@PathVariable("blogid")int blogid,HttpSession session)
 		{
 			Blog blog=blogDAO.get(blogid);
 			if(blog!=null)
 			{
+				session.setAttribute("blogidforcomment", blogid);
 				return new ResponseEntity<Blog>(blog,HttpStatus.OK);
 			}
 			else
 			{
+				
 				return new ResponseEntity<Blog>(blog,HttpStatus.NOT_FOUND);
 			}
 		}
@@ -206,10 +208,10 @@ public class ProductRestController
 		public ResponseEntity<Blogcomment> commentBlog(@RequestBody Blogcomment blogComment,HttpSession session)
 		{
 			UserDetail userDetail=(UserDetail)session.getAttribute("userDetail");
-			
+			int blogid = (Integer)session.getAttribute("blogidforcomment");
 		
 			blogComment.setLoginname(userDetail.getLoginname());
-			blogComment.setBlogid(109);
+			blogComment.setBlogid(blogid);
 			if(blogcommentDAO.addComment(blogComment))
 			{
 				return new ResponseEntity<Blogcomment>(blogComment, HttpStatus.OK);
