@@ -2,12 +2,13 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="" key="selection"/>
+		<item value="friendloginname" key="selection"/>
 		<item value="true" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="true" key="wholeword"/>
 		<list key="findhistory">
+			<item value="friendname"/>
 			<item value="User"/>
 			<item value="user"/>
 			<item value="UserDetail"/>
@@ -22,9 +23,9 @@
 			<item value="blogCommentDAO"/>
 			<item value="role"/>
 			<item value="c_user"/>
-			<item value="c_friend"/>
 		</list>
 		<list key="replacehistory">
+			<item value="friendloginname"/>
 			<item value="user"/>
 			<item value="User"/>
 			<item value="http://localhost:8081/SocialHubMiddelware"/>
