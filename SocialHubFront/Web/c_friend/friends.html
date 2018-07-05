@@ -1,0 +1,38 @@
+<div class="container" ng-Controller="c_friendController">
+
+<div ng-hide="friendlistsize == undefined" align="center" class="container">  
+<br><br>
+<div class="card" style="width:600px;padding:0;border:1px solid black;">
+	<h4 class="card-title" style="font-weight:bold;text-align:center;background-color:powderblue;padding:15px;">Friends</h4>
+    <div ng-repeat="friend in friends" class="card-body">
+    <div>
+  		<div style="margin-left:30px;float:left;width:60%;text-align:left;">
+  			<p ng-show="CurrentUser.loginname == friend.friendloginname"><img src="http://localhost:8081/SocialHubMiddelware/profile/getProfilePicture/{{friend.loginname}}" alt="image" width=90px height=100px></p>
+        	<p ng-show="CurrentUser.loginname == friend.loginname"><img src="http://localhost:8081/SocialHubMiddelware/profile/getProfilePicture/{{friend.friendloginname}}" alt="image" width=90px height=100px></p>
+  		</div>
+  		
+  		<div style="float:right;width:30%;text-align:left;">
+  			<h5 ng-show="CurrentUser.loginname == friend.friendloginname">{{friend.loginname}}</h5>
+        	<h5 ng-show="CurrentUser.loginname == friend.loginname">{{friend.friendloginname}}</h5>
+        	<button class="btn btn-danger" ng-click="unfriend(friend.friendid)">Unfriend</button>
+  		</div>
+    </div>
+    	
+    </div>
+</div>
+</div>
+
+
+<div align="center" ng-show="friendlistsize == undefined"><br><br>
+	<div class="card" style="width:600px;padding:0;border:1px solid black;">
+	<h4 class="card-title" style="font-weight:bold;text-align:center;background-color:powderblue;padding:15px;">Friends</h4>
+    <div class="card-body">
+    	<h5 align="center">No Friends Yet !!!</h5>
+    </div>
+</div>
+</div>
+
+</div>
+
+
+

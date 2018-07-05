@@ -8,25 +8,30 @@
 		<item value="true" key="wrap"/>
 		<item value="true" key="wholeword"/>
 		<list key="findhistory">
+			<item value="User"/>
+			<item value="user"/>
+			<item value="UserDetail"/>
+			<item value="http://localhost:8086/collaborationRestService"/>
 			<item value="userDetail"/>
+			<item value="commented"/>
 			<item value="BlogComment"/>
 			<item value="ng-repeat"/>
 			<item value="commentedblogid"/>
 			<item value="get"/>
 			<item value="BogComment"/>
 			<item value="blogCommentDAO"/>
-			<item value="User"/>
 			<item value="role"/>
 			<item value="c_user"/>
 			<item value="c_friend"/>
-			<item value="CurrentUser"/>
-			<item value="profilepicture"/>
 		</list>
 		<list key="replacehistory">
+			<item value="user"/>
+			<item value="User"/>
+			<item value="http://localhost:8081/SocialHubMiddelware"/>
+			<item value="UserDetail"/>
 			<item value="Blogcomment"/>
 			<item value="commentid"/>
 			<item value="blogcommentDAO"/>
-			<item value="UserDetail"/>
 			<item value="roles"/>
 			<item value="userdetail"/>
 			<item value="friend"/>
