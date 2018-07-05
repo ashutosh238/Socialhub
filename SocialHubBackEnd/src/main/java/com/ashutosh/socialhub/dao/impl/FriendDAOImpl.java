@@ -80,20 +80,9 @@ public class FriendDAOImpl implements FriendDAO{
 		}
 
 		public List<UserDetail> showSuggestedFriend(String loginname) {
-			List<String> users = sessionFactory.getCurrentSession().createSQLQuery("select loginname from c_user where loginname not in(select "
-					+ "friendname from c_friend where loginname = '"+loginname+"' and status = 'Accepted' UNION ALL select loginname from c_friend "
-							+ "where friendname = '"+loginname+"' and status = 'Accepted') AND loginname not in(select friendname from c_friend where "
-									+ "loginname = '"+loginname+"' and status = 'Pending' UNION ALL select loginname from c_friend where friendname = '"+loginname+"'"
-									+ " and status = 'Pending') and loginname!='"+loginname+"'").list();
-			List<UserDetail> suggestedPeople = new ArrayList<UserDetail>();
-			int i = 0;
-			while(i < users.size())
-			{
-				UserDetail user = sessionFactory.getCurrentSession().get(UserDetail.class, users.get(i));
-				suggestedPeople.add(user);
-				i++;
-			}
-	return suggestedPeople;
+			return null;
+			
+
 		}
 
 		public Friend getFriend(int friendid) {
