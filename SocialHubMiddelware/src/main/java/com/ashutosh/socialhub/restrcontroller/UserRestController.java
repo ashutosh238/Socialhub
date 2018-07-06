@@ -40,6 +40,7 @@ public class UserRestController
 			
 			{
 				session.setAttribute("userDetail",tempUserDetail);
+				session.setAttribute("loginname",tempUserDetail.getLoginname());
 				return new ResponseEntity<UserDetail>(tempUserDetail,HttpStatus.OK);
 				
 			}

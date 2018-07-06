@@ -48,9 +48,9 @@ public class ProfileRestCotroller
 	@RequestMapping("profile/getProfilePicture/{loginname}")
 	public @ResponseBody byte[] getProfilePicture(@PathVariable String loginname)
 	{
-		UserDetail userDetail=(UserDetail)session.getAttribute("userDetail");
+		//UserDetail userDetail=(UserDetail)session.getAttribute("userDetail");
 		
-		ProfileImage profile = profilepictureDAO.getProfile(userDetail.getLoginname());
+		ProfileImage profile = profilepictureDAO.getProfile(loginname);
 		
 		if(profile == null)
 		{

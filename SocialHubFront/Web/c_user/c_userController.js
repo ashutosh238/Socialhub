@@ -30,9 +30,11 @@ myApp.controller("c_userController", function($scope, $http, $rootScope, $locati
 		$http.post('http://localhost:8081/SocialHubMiddelware/registerUser', $scope.user)
 		.then(function(response)
 				{
+				alert("added successfully")
 					console.log("registered successfully");
 					console.log(response.statusText);
 					$location.path("/login");
+					
 				}
 			);
 	}

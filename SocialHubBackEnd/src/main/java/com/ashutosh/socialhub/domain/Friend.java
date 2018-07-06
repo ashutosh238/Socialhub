@@ -17,8 +17,9 @@ public class Friend {
 	@SequenceGenerator(name="friendid_seq",sequenceName="FRIENDID_SEQ", allocationSize=1)
 	private int friendid;
 	private String loginname;
-	private String friendloginname;
+	private String friendname;
 	private String status;
+	
 	public int getFriendid() {
 		return friendid;
 	}
@@ -31,11 +32,11 @@ public class Friend {
 	public void setLoginname(String loginname) {
 		this.loginname = loginname;
 	}
-	public String getFriendlogonname() {
-		return friendloginname;
+	public String getFriendname() {
+		return friendname;
 	}
-	public void setFriendlogonname(String friendloginname) {
-		this.friendloginname = friendloginname;
+	public void setFriendname(String friendname) {
+		this.friendname = friendname;
 	}
 	public String getStatus() {
 		return status;

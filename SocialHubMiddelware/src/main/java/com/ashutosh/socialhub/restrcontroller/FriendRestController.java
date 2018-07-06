@@ -38,16 +38,16 @@ public class FriendRestController
 	private UserDAO userDAO;
 	
 	
-	@RequestMapping("friend/list/{loginname}")
-	public ResponseEntity<List<Friend>> showFriendList(@PathVariable("loginname")String loginname)
+	@RequestMapping("friend/list")
+	public ResponseEntity<List<Friend>> showFriendList()
 	{
-		
+		String loginname = (String) session.getAttribute("loginname");
 		List<Friend> friends = friendDAO.showFriendList(loginname);
 		
 		if(friends.isEmpty())
 		{
 			Friend friend = new Friend();
-			//friend.setStatus("No Friends Yet !!!");
+			friend.setStatus("No Friends Yet !!!");
 			friends.add(friend);
 			return new ResponseEntity<List<Friend>>(friends, HttpStatus.NOT_FOUND);
 		}

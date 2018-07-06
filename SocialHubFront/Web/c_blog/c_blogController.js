@@ -23,10 +23,11 @@ myApp.controller("c_blogController", function($scope, $http, $rootScope, $locati
 		console.log("deleting blog");		
 		$http.get('http://localhost:8081/SocialHubMiddelware/deleteBlog/'+blogId)
 		.then(function(response)
-				{
+				{	
 					alert("blog deleted");
 					console.log(response.statusText);
 					$location.path("/showBlog");
+					$route.reload();
 				});
 	}
 
@@ -62,6 +63,7 @@ myApp.controller("c_blogController", function($scope, $http, $rootScope, $locati
 		$http.get('http://localhost:8081/SocialHubMiddelware/blog/incLike/'+blogId)
 		.then(function(response){
 			console.log('Incrementing the Likes in Blog');
+			$route.reload();
 		});
 	}
 	
@@ -69,6 +71,7 @@ myApp.controller("c_blogController", function($scope, $http, $rootScope, $locati
 	{
 		$http.get('http://localhost:8081/SocialHubMiddelware/blog/incDisLike/'+blogId)
 		.then(function(response){
+			$route.reload();
 			console.log('Decrementing the Likes in Blog');
 		});
 	}

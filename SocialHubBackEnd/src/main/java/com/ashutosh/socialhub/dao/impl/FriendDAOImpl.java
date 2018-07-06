@@ -28,7 +28,7 @@ public class FriendDAOImpl implements FriendDAO{
 
 		public List<Friend> showFriendList(String loginname) 
 		{
-			return sessionFactory.getCurrentSession().createQuery("from Friend where (loginname='"+loginname+"' AND status='Accepted') OR (friendloginname='"+loginname+"' AND status='Accepted')").list();
+			return sessionFactory.getCurrentSession().createQuery("from Friend where (loginname='"+loginname+"' AND status='Accepted')").list();
 			 
 		}
 

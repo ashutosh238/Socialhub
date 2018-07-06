@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.ashutosh.socialhub.BlogDAOTestCase
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 7, Time elapsed: 3.499 sec

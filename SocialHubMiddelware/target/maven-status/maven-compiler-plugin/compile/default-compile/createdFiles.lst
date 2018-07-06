@@ -1,0 +1,6 @@
+com\ashutosh\socialhub\config\WebInitializer.class
+com\ashutosh\socialhub\config\WebResolver.class
+com\ashutosh\socialhub\restrcontroller\FriendRestController.class
+com\ashutosh\socialhub\restrcontroller\ProfileRestCotroller.class
+com\ashutosh\socialhub\restrcontroller\UserRestController.class
+com\ashutosh\socialhub\restrcontroller\ProductRestController.class

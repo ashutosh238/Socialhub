@@ -9,6 +9,10 @@
 
   <name>SocialHubBackEnd</name>
   <url>http://maven.apache.org</url>
+  <properties>
+    <maven.compiler.source>1.6</maven.compiler.source>
+    <maven.compiler.target>1.6</maven.compiler.target>
+  </properties>
 
    <dependencies>
 		<!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->

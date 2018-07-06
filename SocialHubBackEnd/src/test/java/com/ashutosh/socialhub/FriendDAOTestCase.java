@@ -38,7 +38,7 @@ public class FriendDAOTestCase {
 	{
 		Friend friend=new Friend();
 		friend.setLoginname("R V");
-		friend.setFriendlogonname("Ashutosh");
+		friend.setFriendname("Ashutosh");
 		assertTrue("problem in sending a friend request",friendDAO.sendFriendRequest(friend));
 	}
 	
@@ -58,7 +58,7 @@ public class FriendDAOTestCase {
 		assertEquals("friend list test case", false, flag);
 		for(Friend f:friends)
 		{
-			System.out.println("Friend Loginname: "+f.getFriendlogonname());
+			System.out.println("Friend Loginname: "+f.getFriendname());
 		}
 	}
 	
@@ -73,12 +73,12 @@ public class FriendDAOTestCase {
 	@Test
 	public void showFriendListtestCase()
 	{
-		List<Friend> friends = friendDAO.showFriendList("Sunita");
+		List<Friend> friends = friendDAO.showFriendList("Ashutosh");
 		boolean flag = friends.isEmpty();
 		assertEquals("friend list test case", false, flag);
 		for(Friend f:friends)
 		{
-			System.out.println("Friend Loginname: "+f.getFriendlogonname()+" :FRIENDS: "+f.getLoginname());
+			System.out.println("Friend Loginname: "+f.getFriendname()+" :FRIENDS: "+f.getLoginname());
 		}
 	}
 	

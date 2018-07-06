@@ -2,12 +2,16 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="friendloginname" key="selection"/>
+		<item value="" key="selection"/>
 		<item value="true" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="true" key="wholeword"/>
 		<list key="findhistory">
+			<item value="friendloginname"/>
+			<item value="FRIENDLOGINNAME"/>
+			<item value="friendlistsize"/>
+			<item value="Friend"/>
 			<item value="friendname"/>
 			<item value="User"/>
 			<item value="user"/>
@@ -19,12 +23,10 @@
 			<item value="ng-repeat"/>
 			<item value="commentedblogid"/>
 			<item value="get"/>
-			<item value="BogComment"/>
-			<item value="blogCommentDAO"/>
-			<item value="role"/>
-			<item value="c_user"/>
 		</list>
 		<list key="replacehistory">
+			<item value="friendname"/>
+			<item value="friend"/>
 			<item value="friendloginname"/>
 			<item value="user"/>
 			<item value="User"/>
@@ -35,7 +37,6 @@
 			<item value="blogcommentDAO"/>
 			<item value="roles"/>
 			<item value="userdetail"/>
-			<item value="friend"/>
 			<item value="picture"/>
 		</list>
 	</section>
@@ -43,7 +44,7 @@
 		<item value="284" key="DIALOG_WIDTH"/>
 		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
 		<item value="391" key="DIALOG_HEIGHT"/>
-		<item value="1049" key="DIALOG_X_ORIGIN"/>
-		<item value="181" key="DIALOG_Y_ORIGIN"/>
+		<item value="753" key="DIALOG_X_ORIGIN"/>
+		<item value="124" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>
