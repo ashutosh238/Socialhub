@@ -32,13 +32,13 @@ public class FriendDAOTestCase {
 		
 	}
 	
-	@Ignore
+	
 	@Test
 	public void sendFriendRequestTestCase()
 	{
 		Friend friend=new Friend();
-		friend.setLoginname("R V");
-		friend.setFriendname("Ashutosh");
+		friend.setLoginname("Ashutosh");
+		friend.setFriendname("R V");
 		assertTrue("problem in sending a friend request",friendDAO.sendFriendRequest(friend));
 	}
 	
@@ -70,6 +70,7 @@ public class FriendDAOTestCase {
 		
 	}
 	
+	@Ignore
 	@Test
 	public void showFriendListtestCase()
 	{

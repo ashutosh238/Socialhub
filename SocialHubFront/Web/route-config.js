@@ -13,6 +13,7 @@ myApp.config(
 				.when("/register",{templateUrl : "c_user/register.html"})
 				.when("/addBlog",{templateUrl : "c_blog/addBlog.html"})
 				.when("/allBlog",{templateUrl : "c_blog/showBlog.html"})
+				.when("/myBlog", {templateUrl : "c_blog/myBlog.html"})
 				.when("/editprofile", {templateUrl : "c_user/editProfile.html"})
 				.when("/blogcomment", {templateUrl : "c_blog/blogcomment.html"})
 				.when("/showfriends",{templateUrl : "c_friend/friends.html"})
@@ -20,6 +21,10 @@ myApp.config(
 				.when("/friendrequests",{templateUrl : "c_friend/pendingRequests.html"})
 				.when("/suggestedPeople",{templateUrl : "c_friend/SuggestedList.html"})
 
+				.when("/addForum",{templateUrl : "c_forum/addForum.html"})
+				.when("/myForum",{templateUrl : "c_forum/myForum.html"})
+				.when("/showForum",{templateUrl : "c_forum/myForum.html"})
+				.when("/allForum",{templateUrl : "c_forum/Forum.html"})
 				
 				
 			});

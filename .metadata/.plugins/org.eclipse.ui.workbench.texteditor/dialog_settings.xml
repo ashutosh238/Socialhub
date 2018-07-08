@@ -2,49 +2,51 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="" key="selection"/>
-		<item value="true" key="casesensitive"/>
+		<item value="forum" key="selection"/>
+		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
-		<item value="true" key="wholeword"/>
+		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="friendloginname"/>
-			<item value="FRIENDLOGINNAME"/>
-			<item value="friendlistsize"/>
-			<item value="Friend"/>
-			<item value="friendname"/>
-			<item value="User"/>
-			<item value="user"/>
-			<item value="UserDetail"/>
+			<item value="blog"/>
+			<item value="FORUMNAME"/>
+			<item value="forumtitle"/>
+			<item value="forumstatus"/>
+			<item value="ROLE_ADMIN"/>
+			<item value="N"/>
+			<item value="username"/>
 			<item value="http://localhost:8086/collaborationRestService"/>
-			<item value="userDetail"/>
-			<item value="commented"/>
-			<item value="BlogComment"/>
-			<item value="ng-repeat"/>
-			<item value="commentedblogid"/>
-			<item value="get"/>
+			<item value="ADMIN"/>
+			<item value="loginname"/>
+			<item value="email"/>
+			<item value="c_friend"/>
+			<item value="c_user"/>
+			<item value="User"/>
+			<item value="friendloginname"/>
 		</list>
 		<list key="replacehistory">
-			<item value="friendname"/>
+			<item value="forum"/>
+			<item value="forumname"/>
+			<item value="status"/>
+			<item value="ROLE_USER"/>
+			<item value="NA"/>
+			<item value="loginname"/>
+			<item value="http://localhost:8081/SocialHubMiddelware"/>
+			<item value="USER"/>
 			<item value="friend"/>
+			<item value="userdetail"/>
+			<item value="UserDetail"/>
+			<item value="friendname"/>
 			<item value="friendloginname"/>
 			<item value="user"/>
 			<item value="User"/>
-			<item value="http://localhost:8081/SocialHubMiddelware"/>
-			<item value="UserDetail"/>
-			<item value="Blogcomment"/>
-			<item value="commentid"/>
-			<item value="blogcommentDAO"/>
-			<item value="roles"/>
-			<item value="userdetail"/>
-			<item value="picture"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="284" key="DIALOG_WIDTH"/>
 		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
 		<item value="391" key="DIALOG_HEIGHT"/>
-		<item value="753" key="DIALOG_X_ORIGIN"/>
-		<item value="124" key="DIALOG_Y_ORIGIN"/>
+		<item value="594" key="DIALOG_X_ORIGIN"/>
+		<item value="345" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

@@ -4,11 +4,9 @@
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseBody"/>
     <fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
-    <fullyQualifiedTypeName name="org.hibernate.HibernateException"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="org.junit.Test"/>
     <fullyQualifiedTypeName name="org.hibernate.Incubating"/>
-    <fullyQualifiedTypeName name="org.junit.Ignore"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="com.ashutosh.socialhub.dao.BlogcommentDAO"/>
     <fullyQualifiedTypeName name="org.hibernate.criterion.Restrictions"/>
@@ -21,4 +19,8 @@
     <fullyQualifiedTypeName name="com.ashutosh.socialhub.dao.UserDAO"/>
     <fullyQualifiedTypeName name="com.ashutosh.socialhub.domain.UserDetail"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
+    <fullyQualifiedTypeName name="org.hibernate.HibernateException"/>
+    <fullyQualifiedTypeName name="org.junit.Ignore"/>
+    <fullyQualifiedTypeName name="com.ashutosh.socialhub.dao.ForumDAO"/>
+    <fullyQualifiedTypeName name="com.ashutosh.socialhub.domain.Forum"/>
 </qualifiedTypeNameHistroy>

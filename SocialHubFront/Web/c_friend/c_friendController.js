@@ -25,4 +25,75 @@ myApp.controller("c_friendController", function($scope, $rootScope, $location, $
 	};
 	friendList();
 	
+	function pendingFriendRequests()
+	{
+		$http.get('http://localhost:8081/SocialHubMiddelware/friend/pendingRequest')
+		.then(function(response)
+				{
+					console.log("pending request list function");
+					$scope.pendingRequests = response.data;
+					$scope.requestlistsize = response.data;
+				},
+				function(response)
+				{
+					$scope.requestlistsize = undefined;
+				});
+	}
+pendingFriendRequests();
+
+function SuggestedList()
+{
+	console.log('Suggested List Displaying');
+	$http.get('http://localhost:8081/SocialHubMiddelware/friend/suggested')
+	.then(function(response)
+			{
+				$scope.suggestedList = response.data;
+			});
+}
+SuggestedList();
+
+$scope.sendRequest = function(loginname)
+{
+	$http.get('http://localhost:8081/SocialHubMiddelware/friend/sendRequest/'+loginname)
+	.then(function(response)
+			{
+				console.log("Friend Request Sent");
+				/*$location.path("/friendrequests");*/
+				$route.reload();
+			});
+}
+
+$scope.acceptRequest = function(friendid)
+{
+	$http.post('http://localhost:8081/SocialHubMiddelware/friend/acceptRequest/'+friendid)
+	.then(function(response)
+			{
+				console.log("Friend Request Accepted");
+				$location.path("/friends");
+			});
+}
+
+$scope.deleteRequest = function(friendid)
+{
+	$http.delete('http://localhost:8081/SocialHubMiddelware/friend/deleteRequest/'+friendid)
+	.then(function(response)
+			{
+				console.log("Friend Request Deleted");
+				/*$location.path("/friends");*/
+				$route.reload();
+			});
+}
+
+$scope.unfriend = function(friendid)
+{
+	$http.delete('http://localhost:8081/SocialHubMiddelware/friend/deleteRequest/'+friendid)
+	.then(function(response)
+			{
+				console.log("Friend Removed Successfully");
+				
+				$route.reload();
+			});
+}
+
+	
 });

@@ -6,10 +6,12 @@ import com.ashutosh.socialhub.domain.Forum;
 
 public interface ForumDAO {
 
-	public boolean save(Forum forum);
-	public boolean update(Forum forum);
-	public boolean delete(Forum forum);
-	public Forum get(int id);
-	public List<Forum> list();
-
+	public boolean saveForum(Forum forum);
+	public boolean deleteforum(int forumid);
+	public Forum getForum(int forumid);
+	public boolean approveForum(int forumid);
+	public boolean rejectForum(int forumid);
+	public List<Forum> approvedForumsList();
+	public List<Forum> forumList();
+	
 }

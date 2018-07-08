@@ -1,0 +1,26 @@
+<br><div style="border:1px solid black;padding:0;background-color:white;" class="container" ng-Controller="c_blogController">
+
+<p align="center"><h1 style="background-color:cyan;padding:15px;text-align:center;margin-top:-16px;">My Blogs</h1></p>
+<div align="center" ng-repeat="blog in allBlogData" ng-show="CurrentUser.loginname == blog.loginname">
+  <div class="card" style="width:80%;text-align:left;border:1px solid black;">
+  <div class="card-header">
+    <div style="font-size:20px;font-weight:bold;float:left;">{{blog.blogname}}</div>
+    <div style="font-size:15px;float:right;"><b>Author:</b> {{blog.createdate}}</div>
+  </div>
+    
+    <div class="card-body">{{blog.blogcontent}}</div> 
+    <div class="card-footer">
+    	<button class="btn btn-primary" ng-click="approveblog(blog.blogid)" ng-show="blog.blogstatus=='NA' && CurrentUser.role=='ROLE_ADMIN'">Approve</button>
+        <button class="btn btn-info" ng-click="rejectblog(blog.blogid)" ng-show="blog.blogstatus=='NA' && CurrentUser.role=='ROLE_ADMIN'">Reject</button>
+        <label style="font-weight:bold;" ng-show="blog.blogstatus=='A'"><span class="badge badge-pill badge-info">Approved</span></label>
+  		<label style="font-weight:bold;" ng-show="blog.blogstatus=='R'"><span class="badge badge-pill badge-danger">Rejected</span></label>
+  		
+        <button style="float:right;" class="btn btn-danger" ng-click="deleteblog(blog.blogid)">Delete</button>&nbsp;&nbsp;
+        <button style="float:right;" ng-hide="blog.blogstatus == 'R'" class="btn btn-info" ng-click="commentedblog(blog.blogid)">Comment</button>&nbsp;&nbsp;
+        <button style="float:right;" ng-hide="blog.blogstatus == 'R'" class="btn btn-warning" ng-click="incLike(blog.blogid)">Like <span class="badge badge-light">{{blog.likes}}</span></button>
+        
+    </div>
+ 	</div>
+  <br><br>
+  </div>
+</div>

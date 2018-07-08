@@ -1,0 +1,50 @@
+<div class="container" ng-Controller="c_forumController">
+
+<h2 align="center" style="margin:20px 0;background-color:ghostwhite;font-family:Monotype Corsiva">My Forums</h2><br>
+<p style="font-weight:bold;font-size:20px;text-decoration:underline;" ng-hide="CurrentUser == undefined">Current User: {{CurrentUser.loginname}}</p><br><br>
+
+<div ng-repeat="forum in allForumData" ng-show="CurrentUser.loginname == forum.loginname">
+
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="row">
+		<div class="col-md-5">
+		    <div class="card">
+		    <div class="card-body">
+                
+              <h3 class="card-title">{{forum.forumName}}</h3>
+              
+              <span class="badge badge-success" ng-show="forum.forumstatus=='A'">Approved</span>
+              <span class="badge badge-success"  ng-show="forum.forumstatus=='R'">Rejected</span>
+              <span class="badge badge-success"  ng-show="forum.forumstatus=='NA'">Approval Pending</span>
+
+             <br><br>
+              
+  	<button type="button" class="btn btn-primary" ng-click="approveForum(forum.forumId)" ng-show="forum.forumstatus=='NA' && CurrentUser.role=='ROLE_USER'">Approve</button>
+  	<button type="button" class="btn btn-primary" ng-click="rejectForum(forum.forumId)" ng-show="forum.forumstatus=='NA' && CurrentUser.role=='ROLE_USER'">Reject</button>
+  	<button type="button" class="btn btn-danger" ng-show="CurrentUser.loginname == forum.loginname" ng-click="deleteForum(forum.forumid)">Delete</button>
+  	          
+            </div>
+		</div>
+	    </div>
+	    
+	    <div class="col-md-7">
+		   <div class="card-body">
+			{{forum.forumContent}}
+           </div>
+		</div>
+		</div>
+        </div>
+        </div>
+</div>
+</div>
+  
+  
+  
+      <br><br>
+  
+  
+</div>
+</div>

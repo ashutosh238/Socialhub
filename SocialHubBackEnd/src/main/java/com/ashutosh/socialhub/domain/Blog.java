@@ -8,6 +8,8 @@ import javax.persistence.Table;
 
 import org.springframework.stereotype.Component;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 @Component
 @Entity
 @Table
@@ -16,6 +18,7 @@ public class Blog
 	{
 		private String blogname;
 		private String blogcontent;
+		@JsonFormat(shape=JsonFormat.Shape.STRING, pattern="dd-MM-yyyy")
 		private Date createdate;
 		private String loginname;
 		private String status;

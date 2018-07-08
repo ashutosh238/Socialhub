@@ -28,13 +28,13 @@ public class FriendDAOImpl implements FriendDAO{
 
 		public List<Friend> showFriendList(String loginname) 
 		{
-			return sessionFactory.getCurrentSession().createQuery("from Friend where (loginname='"+loginname+"' AND status='Accepted')").list();
+			return sessionFactory.getCurrentSession().createQuery("from Friend where (loginname='"+loginname+"' AND status='Accepted')OR (friendname='"+loginname+"' AND status='Accepted')").list();
 			 
 		}
 
 		public List<Friend> showPendingFriendRequest(String loginname)
 		{
-			return sessionFactory.getCurrentSession().createQuery("from Friend where (loginname='"+loginname+"' AND status='Pending')") .list();	 
+			return sessionFactory.getCurrentSession().createQuery("from Friend where (loginname='"+loginname+"' AND status='Pending') OR (friendname='"+loginname+"' AND status='Pending')") .list();	 
 		}
 
 		
@@ -80,7 +80,20 @@ public class FriendDAOImpl implements FriendDAO{
 		}
 
 		public List<UserDetail> showSuggestedFriend(String loginname) {
-			return null;
+			List<String> users = sessionFactory.getCurrentSession().createSQLQuery("select loginname from userdetail where loginname not in(select "
+					+ "friendname from friend where loginname = '"+loginname+"' and status = 'Accepted' UNION ALL select loginname from friend "
+							+ "where friendname = '"+loginname+"' and status = 'Accepted') AND loginname not in(select friendname from friend where "
+									+ "loginname = '"+loginname+"' and status = 'Pending' UNION ALL select loginname from friend where friendname = '"+loginname+"'"
+									+ " and status = 'Pending') and loginname!='"+loginname+"'").list();
+			List<UserDetail> suggestedPeople = new ArrayList<UserDetail>();
+			int i = 0;
+			while(i < users.size())
+			{
+				UserDetail user = sessionFactory.getCurrentSession().get(UserDetail.class, users.get(i));
+				suggestedPeople.add(user);
+				i++;
+			}
+	return suggestedPeople;
 			
 
 		}
