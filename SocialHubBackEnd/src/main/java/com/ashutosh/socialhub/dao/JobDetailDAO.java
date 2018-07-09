@@ -8,10 +8,13 @@ public interface JobDetailDAO {
 	
 	
 	
-	public boolean save(JobDetail jobdetail);
-	public boolean update(JobDetail jobdetail);
-	public boolean delete(JobDetail jobdetail);
-	public JobDetail get(int id);
-	public List<JobDetail> list();
+	public boolean saveJob(JobDetail job);			
+	public boolean updateJob(JobDetail job);			
+	public boolean deleteJob(int jobid);		
+	public JobDetail getJob(int jobid); 				
+	public List<JobDetail> jobList(); 	
+	public JobDetail get(int id); 
+	
+	
 
 }
