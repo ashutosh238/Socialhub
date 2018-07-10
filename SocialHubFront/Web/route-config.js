@@ -25,7 +25,14 @@ myApp.config(
 				.when("/myForum",{templateUrl : "c_forum/myForum.html"})
 				.when("/showForum",{templateUrl : "c_forum/myForum.html"})
 				.when("/allForum",{templateUrl : "c_forum/Forum.html"})
+				.when("/contactus",	{templateUrl : "c_contactUs/ContactUs.html"})
 				
+				.when("/applyjob",{templateUrl : "c_job/jobapplicationform.html"})
+				.when("/appliedjobs",{templateUrl : "c_job/appliedJobs.html"})
+				.when("/postjob",{templateUrl : "c_job/PostJob.html"})
+				.when("/jobs",{templateUrl : "c_job/jobs.html"})
+				.when("/showjobs",{templateUrl : "c_job/jobs.html"})
+				.when("/allapplications", {templateUrl : "c_job/adminjobapp.html"})
 				
 			});
 

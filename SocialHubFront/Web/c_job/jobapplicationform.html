@@ -1,0 +1,48 @@
+<div class="container" ng-Controller="c_jobController">
+<br>
+	<div align="center">
+	<div class="card" style="width:600px;min-height:630px;padding:0px;border:1px solid black;">
+ 	 <h4 style="background-color:powderblue;padding:10px;" align="center" class="card-title"><b>Job Application Form</b></h4><br>
+    	<p align="center" style="padding:0;"><img class="card-img-top" src="resources/joinme-logo.png" alt="Card image" style="width:150px;height:100px;"></p>
+    	<div style="text-align:left;" class="card-body">
+    		<form>
+   			<div class="row">
+				<div class="col-sm-6 form-group">
+					<b>Job Title:</b>
+					<input type="text" name="jobtitle" ng-model="JobApplication.jobtitle" placeholder="Enter Email" class="form-control" required>
+				
+				</div>		
+			</div>					
+			
+			<div class="form-group">
+					<b>Job Description:</b>
+				<input type="text" name="description" ng-model="JobApplication.description" placeholder="Enter Email" class="form-control" required>
+				
+			</div>
+			
+			<div class="form-group">
+					<b>Email:</b>
+					<input type="text" name="email" ng-model="JobApplication.email" placeholder="Enter Email" class="form-control" required>
+				</div>			
+				
+			
+			
+						
+				<div class="form-group">
+					<b>Reason:</b>
+					<textarea name="reason" placeholder="Enter Reason here" ng-model="JobApplication.reason" rows="3" class="form-control" required></textarea>
+				</div>		
+				
+				<div style="text-align:center;" class="form-group">
+					<button type="button" ng-click="applyjob()" class="btn btn-lg btn-primary">Apply</button>		
+				</div>			
+			</form> 
+	
+		</div>
+	</div>
+</div>
+	
+	
+	
+	
+	</div>

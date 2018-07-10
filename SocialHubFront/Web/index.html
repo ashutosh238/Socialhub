@@ -11,6 +11,7 @@
 <script src="c_blog/c_blogController.js" type="text/javascript"></script>
 <script src="c_friend/c_friendController.js" type="text/javascript"></script>
 <script src="c_forum/c_forumController.js" type="text/javascript"></script>
+<script src="c_job/c_jobController.js" type="text/javascript"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -79,8 +80,24 @@
      		</div>
   		</li> 
     
+    <li class="nav-item">
+      <a class="nav-link" href="#/contactus"> ContactUs </a>
+    </li>
+    
+    <li class="nav-item dropdown">
+    	 <a class="nav-link dropdown-toggle" href="" id="navbardrop" data-toggle="dropdown"> Jobs </a>
+    		<div class="dropdown-menu">
+        		<a class="dropdown-item" href="#/appliedjobs" >My Applications</a>
+        		<a class="dropdown-item" href="#/jobs">Jobs Opened</a>
+        		<a class="dropdown-item"  href="#/postjob">Post Job</a>
+        		<a class="dropdown-item" href="#/allapplications">All Applications</a>
+     		</div>
+</li>
+    
   </ul>
 </nav>
+ 
+    
 
 <div ng-view></div>
 

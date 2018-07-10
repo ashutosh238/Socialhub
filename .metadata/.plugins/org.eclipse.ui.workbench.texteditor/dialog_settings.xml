@@ -2,31 +2,37 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="JobDetail" key="selection"/>
+		<item value="applyjob" key="selection"/>
 		<item value="true" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="true" key="wholeword"/>
 		<list key="findhistory">
+			<item value="applyjob"/>
+			<item value="applyjob()"/>
+			<item value="applyjobClicked"/>
+			<item value="jobdetail/post"/>
+			<item value="myJobs"/>
+			<item value="my"/>
+			<item value="jobdetail"/>
+			<item value="job"/>
+			<item value="jobtitle"/>
+			<item value="http://localhost:8086/collaborationRestService"/>
+			<item value="User"/>
 			<item value="Job"/>
 			<item value="jobDAO"/>
 			<item value="JobDAO"/>
 			<item value="blog"/>
-			<item value="FORUMNAME"/>
-			<item value="forumtitle"/>
-			<item value="forumstatus"/>
-			<item value="ROLE_ADMIN"/>
-			<item value="N"/>
-			<item value="username"/>
-			<item value="http://localhost:8086/collaborationRestService"/>
-			<item value="ADMIN"/>
-			<item value="loginname"/>
-			<item value="email"/>
-			<item value="c_friend"/>
 		</list>
 		<list key="replacehistory">
+			<item value="JobApplication"/>
+			<item value="jobdetail"/>
+			<item value="designation"/>
+			<item value="http://localhost:8081/SocialHubMiddelware"/>
+			<item value="UserDetail"/>
 			<item value="JobDetail"/>
 			<item value="jobdetailDAO"/>
+			<item value="JobappDAO"/>
 			<item value="JobDetailDAO"/>
 			<item value="forum"/>
 			<item value="forumname"/>
@@ -34,19 +40,13 @@
 			<item value="ROLE_USER"/>
 			<item value="NA"/>
 			<item value="loginname"/>
-			<item value="http://localhost:8081/SocialHubMiddelware"/>
-			<item value="USER"/>
-			<item value="friend"/>
-			<item value="userdetail"/>
-			<item value="UserDetail"/>
-			<item value="friendname"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="284" key="DIALOG_WIDTH"/>
 		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
-		<item value="391" key="DIALOG_HEIGHT"/>
-		<item value="594" key="DIALOG_X_ORIGIN"/>
-		<item value="345" key="DIALOG_Y_ORIGIN"/>
+		<item value="345" key="DIALOG_HEIGHT"/>
+		<item value="844" key="DIALOG_X_ORIGIN"/>
+		<item value="391" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

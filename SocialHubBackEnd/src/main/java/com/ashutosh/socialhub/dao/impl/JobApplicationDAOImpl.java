@@ -59,7 +59,7 @@ public class JobApplicationDAOImpl implements JobApplicationDAO {
 
 	public boolean isJobAlreadyApplied(String loginname, int jobid) {
 
-		//select * from JobApplication where emailID = ? and jobID = ?
+	
 		JobApplication jobApplication = (JobApplication) sessionFactory.getCurrentSession()
 				.createCriteria(JobApplication.class)
 				.add(Restrictions.eq("loginname", loginname))
