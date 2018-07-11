@@ -1,4 +1,4 @@
-var myApp=angular.module("myApp", ["ngRoute"]);
+var myApp=angular.module("myApp", ['ngRoute','ngCookies']);
 
 myApp.config(
 			function($routeProvider)
@@ -34,5 +34,20 @@ myApp.config(
 				.when("/showjobs",{templateUrl : "c_job/jobs.html"})
 				.when("/allapplications", {templateUrl : "c_job/adminjobapp.html"})
 				
+				.when("/chat",{templateUrl:"c_chat/chatroom.html"});
+				
+				
 			});
 
+
+myApp.run(function($rootScope,$cookieStore)
+		
+{
+	console.log('I am in run function');
+	console.log($rootScope.CurrentUser);
+	
+	if($rootScope.CurrentUser==undefined)
+		{
+		$rootScope.CurrentUser=$cookieStore.get('userDetail');
+		}
+});

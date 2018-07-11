@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_qg4vUH-zEeigUZlw-FTZkw" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_qg4vUX-zEeigUZlw-FTZkw" bindingContexts="_qg7z1H-zEeigUZlw-FTZkw">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;JobApplicationDAO.java&quot; tooltip=&quot;SocialHubBackEnd/src/main/java/com/ashutosh/socialhub/dao/JobApplicationDAO.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SocialHubBackEnd/src/main/java/com/ashutosh/socialhub/dao/JobApplicationDAO.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;JobApplicationDAOImpl.java&quot; tooltip=&quot;SocialHubBackEnd/src/main/java/com/ashutosh/socialhub/dao/impl/JobApplicationDAOImpl.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SocialHubBackEnd/src/main/java/com/ashutosh/socialhub/dao/impl/JobApplicationDAOImpl.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;JobApplication.java&quot; tooltip=&quot;SocialHubBackEnd/src/main/java/com/ashutosh/socialhub/domain/JobApplication.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SocialHubBackEnd/src/main/java/com/ashutosh/socialhub/domain/JobApplication.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;JobRestController.java&quot; tooltip=&quot;SocialHubMiddelware/src/main/java/com/ashutosh/socialhub/restrcontroller/JobRestController.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SocialHubMiddelware/src/main/java/com/ashutosh/socialhub/restrcontroller/JobRestController.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.browser.editorSupport&quot; name=&quot;appliedJobs.html&quot; tooltip=&quot;SocialHubFront/Web/c_job/appliedJobs.html&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SocialHubFront/Web/c_job/appliedJobs.html&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditor&quot; name=&quot;NativeMethodAccessorImpl.class&quot; tooltip=&quot;jdk.internal.reflect.NativeMethodAccessorImpl&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=SocialHubBackEnd/C:\/Program Files\/Java\/jdk-9.0.4\/lib\/jrt-fs.jar/java.base&amp;lt;jdk.internal.reflect(NativeMethodAccessorImpl.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditor&quot; name=&quot;InvocableHandlerMethod.class&quot; tooltip=&quot;org.springframework.web.method.support.InvocableHandlerMethod&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=SocialHubMiddelware/C:\/Users\/Ashutosh\/.m2\/repository\/org\/springframework\/spring-web\/5.0.7.RELEASE\/spring-web-5.0.7.RELEASE.jar&amp;lt;org.springframework.web.method.support(InvocableHandlerMethod.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;JobDetailDAOImpl.java&quot; tooltip=&quot;SocialHubBackEnd/src/main/java/com/ashutosh/socialhub/dao/impl/JobDetailDAOImpl.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SocialHubBackEnd/src/main/java/com/ashutosh/socialhub/dao/impl/JobDetailDAOImpl.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.browser.editorSupport&quot; name=&quot;jobapplicationform.html&quot; tooltip=&quot;SocialHubFront/Web/c_job/jobapplicationform.html&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SocialHubFront/Web/c_job/jobapplicationform.html&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.jsdt.ui.CompilationUnitEditor&quot; name=&quot;route-config.js&quot; tooltip=&quot;SocialHubFront/Web/route-config.js&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SocialHubFront/Web/route-config.js&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.browser.editorSupport&quot; name=&quot;index.html&quot; tooltip=&quot;SocialHubFront/Web/index.html&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SocialHubFront/Web/index.html&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.jsdt.ui.CompilationUnitEditor&quot; name=&quot;c_userController.js&quot; tooltip=&quot;SocialHubFront/Web/c_user/c_userController.js&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SocialHubFront/Web/c_user/c_userController.js&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;LogoutConfirmation.html&quot; tooltip=&quot;SocialHubFront/Web/LogoutConfirmation.html&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SocialHubFront/Web/LogoutConfirmation.html&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_qg4vUX-zEeigUZlw-FTZkw" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_qg4vUn-zEeigUZlw-FTZkw" label="%trimmedwindow.label.eclipseSDK" x="0" y="0" width="740" height="735">
@@ -73,15 +73,14 @@
           <tags>persp.showIn:org.eclipse.eclemma.ui.CoverageView</tags>
           <tags>persp.newWizSC:org.eclipse.jpt.jpa.ui.wizard.newJpaProject</tags>
           <tags>persp.perspSC:org.eclipse.jpt.ui.jpaPerspective</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_qg4vVX-zEeigUZlw-FTZkw" selectedElement="_qg4vVn-zEeigUZlw-FTZkw" horizontal="true">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_qg4vVX-zEeigUZlw-FTZkw" selectedElement="_qg4vW3-zEeigUZlw-FTZkw" horizontal="true">
             <children xsi:type="basic:PartStack" xmi:id="_qg4vVn-zEeigUZlw-FTZkw" elementId="topLeft" containerData="2384" selectedElement="_qg4vV3-zEeigUZlw-FTZkw">
-              <tags>active</tags>
               <children xsi:type="advanced:Placeholder" xmi:id="_qg4vV3-zEeigUZlw-FTZkw" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_qg5943-zEeigUZlw-FTZkw"/>
               <children xsi:type="advanced:Placeholder" xmi:id="_qg4vWH-zEeigUZlw-FTZkw" elementId="org.eclipse.ui.views.ResourceNavigator" toBeRendered="false" ref="_qg5-Vn-zEeigUZlw-FTZkw"/>
               <children xsi:type="advanced:Placeholder" xmi:id="_qg4vWX-zEeigUZlw-FTZkw" elementId="org.eclipse.jdt.ui.TypeHierarchy" toBeRendered="false" ref="_qg5-V3-zEeigUZlw-FTZkw"/>
               <children xsi:type="advanced:Placeholder" xmi:id="_qg4vWn-zEeigUZlw-FTZkw" elementId="org.eclipse.jdt.ui.PackagesView" toBeRendered="false" ref="_qg5-WH-zEeigUZlw-FTZkw"/>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_qg4vW3-zEeigUZlw-FTZkw" containerData="7616" selectedElement="_qg5WYH-zEeigUZlw-FTZkw">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_qg4vW3-zEeigUZlw-FTZkw" containerData="7616" selectedElement="_qg5WZX-zEeigUZlw-FTZkw">
               <children xsi:type="basic:PartSashContainer" xmi:id="_qg5WYH-zEeigUZlw-FTZkw" containerData="6986" selectedElement="_qg5WYX-zEeigUZlw-FTZkw" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_qg5WYX-zEeigUZlw-FTZkw" elementId="org.eclipse.ui.editorss" containerData="8726" ref="_qg5903-zEeigUZlw-FTZkw"/>
                 <children xsi:type="basic:PartStack" xmi:id="_qg5WYn-zEeigUZlw-FTZkw" elementId="topRight" containerData="1274" selectedElement="_qg5WY3-zEeigUZlw-FTZkw">
@@ -145,9 +144,78 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_qg5903-zEeigUZlw-FTZkw" elementId="org.eclipse.ui.editorss" selectedElement="_qg591H-zEeigUZlw-FTZkw">
-      <children xsi:type="basic:PartStack" xmi:id="_qg591H-zEeigUZlw-FTZkw" elementId="org.eclipse.e4.primaryDataStack">
+      <children xsi:type="basic:PartStack" xmi:id="_qg591H-zEeigUZlw-FTZkw" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_4YY98ITSEeijyb5Bi0qoVw">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
+        <tags>active</tags>
+        <children xsi:type="basic:Part" xmi:id="_jAQnkIR2Eei5TrJJMGARdw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="route-config.js" iconURI="platform:/plugin/org.eclipse.wst.jsdt.ui/icons/full/obj16/jcu_obj.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.wst.jsdt.ui.CompilationUnitEditor&quot; name=&quot;route-config.js&quot; partName=&quot;route-config.js&quot; title=&quot;route-config.js&quot; tooltip=&quot;SocialHubFront/Web/route-config.js&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SocialHubFront/Web/route-config.js&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;56&quot; selectionTopPixel=&quot;408&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.wst.jsdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_-6jvQIR2Eei5TrJJMGARdw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="WebSocketConfig.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;WebSocketConfig.java&quot; partName=&quot;WebSocketConfig.java&quot; title=&quot;WebSocketConfig.java&quot; tooltip=&quot;SocialHubMiddelware/src/main/java/com/ashutosh/socialhub/ConfigChat/WebSocketConfig.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SocialHubMiddelware/src/main/java/com/ashutosh/socialhub/ConfigChat/WebSocketConfig.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;599&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_Mpe9YIR3Eei5TrJJMGARdw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="SocialHubMiddelware/pom.xml" iconURI="platform:/plugin/org.eclipse.m2e.editor/icons/editor-pom.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.m2e.editor.MavenPomEditor&quot; name=&quot;pom.xml&quot; partName=&quot;SocialHubMiddelware/pom.xml&quot; title=&quot;SocialHubMiddelware/pom.xml&quot; tooltip=&quot;SocialHubMiddelware/pom.xml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SocialHubMiddelware/pom.xml&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.m2e.editor.MavenPomEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_hdJZkIR3Eei5TrJJMGARdw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="ChatRestController.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ChatRestController.java&quot; partName=&quot;ChatRestController.java&quot; title=&quot;ChatRestController.java&quot; tooltip=&quot;SocialHubMiddelware/src/main/java/com/ashutosh/socialhub/restrcontroller/ChatRestController.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SocialHubMiddelware/src/main/java/com/ashutosh/socialhub/restrcontroller/ChatRestController.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;379&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_6lyR8IR3Eei5TrJJMGARdw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Message.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Message.java&quot; partName=&quot;Message.java&quot; title=&quot;Message.java&quot; tooltip=&quot;SocialHubBackEnd/src/main/java/com/ashutosh/socialhub/domain/Message.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SocialHubBackEnd/src/main/java/com/ashutosh/socialhub/domain/Message.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;447&quot; selectionTopPixel=&quot;18&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_-_8wIIR3Eei5TrJJMGARdw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="OutputMessage.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;OutputMessage.java&quot; partName=&quot;OutputMessage.java&quot; title=&quot;OutputMessage.java&quot; tooltip=&quot;SocialHubBackEnd/src/main/java/com/ashutosh/socialhub/domain/OutputMessage.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SocialHubBackEnd/src/main/java/com/ashutosh/socialhub/domain/OutputMessage.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;376&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_W519cIR4Eei5TrJJMGARdw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="index.html" iconURI="platform:/plugin/org.eclipse.wst.html.ui/icons/full/obj16/sourceEditor.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;index.html&quot; partName=&quot;index.html&quot; title=&quot;index.html&quot; tooltip=&quot;SocialHubFront/Web/index.html&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SocialHubFront/Web/index.html&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;323&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1169&quot; selectionTopPixel=&quot;30&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.wst.html.core.htmlsource.source</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_hs8eMIR5Eei5TrJJMGARdw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="chatroom.html" iconURI="platform:/plugin/org.eclipse.wst.html.ui/icons/full/obj16/sourceEditor.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;chatroom.html&quot; partName=&quot;chatroom.html&quot; title=&quot;chatroom.html&quot; tooltip=&quot;SocialHubFront/Web/c_chat/chatroom.html&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SocialHubFront/Web/c_chat/chatroom.html&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.wst.html.core.htmlsource.source</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_66rR8IR5Eei5TrJJMGARdw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="c_chatController.js" iconURI="platform:/plugin/org.eclipse.wst.jsdt.ui/icons/full/obj16/jcu_obj.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.wst.jsdt.ui.CompilationUnitEditor&quot; name=&quot;c_chatController.js&quot; partName=&quot;c_chatController.js&quot; title=&quot;c_chatController.js&quot; tooltip=&quot;SocialHubFront/Web/c_chat/c_chatController.js&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SocialHubFront/Web/c_chat/c_chatController.js&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.wst.jsdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_9dcwsIR5Eei5TrJJMGARdw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="chatService.js" iconURI="platform:/plugin/org.eclipse.wst.jsdt.ui/icons/full/obj16/jcu_obj.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.wst.jsdt.ui.CompilationUnitEditor&quot; name=&quot;chatService.js&quot; partName=&quot;chatService.js&quot; title=&quot;chatService.js&quot; tooltip=&quot;SocialHubFront/Web/c_chat/chatService.js&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SocialHubFront/Web/c_chat/chatService.js&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;271&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.wst.jsdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_4YY98ITSEeijyb5Bi0qoVw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="c_userController.js" iconURI="platform:/plugin/org.eclipse.wst.jsdt.ui/icons/full/obj16/jcu_obj.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.wst.jsdt.ui.CompilationUnitEditor&quot; name=&quot;c_userController.js&quot; partName=&quot;c_userController.js&quot; title=&quot;c_userController.js&quot; tooltip=&quot;SocialHubFront/Web/c_user/c_userController.js&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SocialHubFront/Web/c_user/c_userController.js&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;567&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.wst.jsdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+          <tags>active</tags>
+          <tags>activeOnClose</tags>
+        </children>
       </children>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_qg5943-zEeigUZlw-FTZkw" elementId="org.eclipse.ui.navigator.ProjectExplorer" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Project Explorer" iconURI="platform:/plugin/org.eclipse.ui.navigator.resources/icons/full/eview16/resource_persp.png" tooltip="" closeable="true">
@@ -156,8 +224,6 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; currentWorkingSetName=&quot;Aggregate for window 1530529303869&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;>&#xD;&#xA;&lt;lastRecentlyUsedFilters/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
-      <tags>active</tags>
-      <tags>activeOnClose</tags>
       <menus xmi:id="_qg595H-zEeigUZlw-FTZkw" elementId="org.eclipse.ui.navigator.ProjectExplorer">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -410,7 +476,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_qg6k0n-zEeigUZlw-FTZkw" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_OV6U5IR1EeiT6t6IYz7jZA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_qhBTxX-zEeigUZlw-FTZkw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_xLk5UITPEeijyb5Bi0qoVw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_qhBTxX-zEeigUZlw-FTZkw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_qg6k33-zEeigUZlw-FTZkw" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -425,7 +491,7 @@
       <children xsi:type="menu:ToolBar" xmi:id="_qg6lKX-zEeigUZlw-FTZkw" elementId="org.eclipse.search.searchActionSet">
         <tags>Draggable</tags>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_qg6lLn-zEeigUZlw-FTZkw" elementId="org.eclipse.ui.edit.text.actionSet.presentation" visible="false">
+      <children xsi:type="menu:ToolBar" xmi:id="_qg6lLn-zEeigUZlw-FTZkw" elementId="org.eclipse.ui.edit.text.actionSet.presentation">
         <tags>Draggable</tags>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_qg6lN3-zEeigUZlw-FTZkw" elementId="org.eclipse.wst.server.ui.internal.webbrowser.actionSet">
@@ -440,7 +506,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_qg6lP3-zEeigUZlw-FTZkw" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_OWEF6IR1EeiT6t6IYz7jZA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_qhBTaH-zEeigUZlw-FTZkw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_xLuqVITPEeijyb5Bi0qoVw" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_qhBTaH-zEeigUZlw-FTZkw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_qg6lS3-zEeigUZlw-FTZkw" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>

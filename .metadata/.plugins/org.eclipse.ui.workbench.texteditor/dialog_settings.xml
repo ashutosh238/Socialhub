@@ -2,12 +2,13 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="applyjob" key="selection"/>
+		<item value="LogoutConfirmation" key="selection"/>
 		<item value="true" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="true" key="wholeword"/>
 		<list key="findhistory">
+			<item value="LogoutConfirmation"/>
 			<item value="applyjob"/>
 			<item value="applyjob()"/>
 			<item value="applyjobClicked"/>
@@ -22,7 +23,6 @@
 			<item value="Job"/>
 			<item value="jobDAO"/>
 			<item value="JobDAO"/>
-			<item value="blog"/>
 		</list>
 		<list key="replacehistory">
 			<item value="JobApplication"/>

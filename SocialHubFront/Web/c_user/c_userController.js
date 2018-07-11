@@ -1,4 +1,4 @@
-myApp.controller("c_userController", function($scope, $http, $rootScope, $location)
+myApp.controller("c_userController", function($scope, $http, $rootScope, $location,$cookieStore)
 {
 	$scope.user={'loginname':'','password':'','username':'','emailid':'','mobile':'','role':'','address':''};
 	
@@ -14,6 +14,7 @@ myApp.controller("c_userController", function($scope, $http, $rootScope, $locati
 					console.log("login function");
 					$scope.user = response.data;
 					$rootScope.CurrentUser = $scope.user;
+					$cookieStore.put('userDetail',response.data);
 					console.log("login Successful: ");
 					
 					$location.path("/loggedin");
@@ -38,6 +39,7 @@ myApp.controller("c_userController", function($scope, $http, $rootScope, $locati
 				}
 			);
 	}
+	
 	
 
 });
