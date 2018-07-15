@@ -6,12 +6,17 @@ com\ashutosh\socialhub\domain\Forum.class
 com\ashutosh\socialhub\domain\ProfileImage.class
 com\ashutosh\socialhub\dao\ProfilePictureDAO.class
 com\ashutosh\socialhub\domain\JobDetail.class
+com\ashutosh\socialhub\domain\Suggestion.class
+com\ashutosh\socialhub\dao\impl\JobApplicationDAOImpl.class
 com\ashutosh\socialhub\dao\BlogcommentDAO.class
+com\ashutosh\socialhub\domain\JobApplication.class
 com\ashutosh\socialhub\dao\ForumCommentDAO.class
 com\ashutosh\socialhub\dao\FriendDAO.class
 com\ashutosh\socialhub\dao\JobDetailDAO.class
 com\ashutosh\socialhub\domain\Blog.class
+com\ashutosh\socialhub\dao\impl\SuggestionDAOImpl.class
 com\ashutosh\socialhub\dao\impl\BlogDAOImpl.class
+com\ashutosh\socialhub\domain\Message.class
 com\ashutosh\socialhub\domain\Friend.class
 com\ashutosh\socialhub\dao\impl\ForumDAOImpl.class
 com\ashutosh\socialhub\dao\impl\FriendDAOImpl.class
@@ -23,3 +28,6 @@ com\ashutosh\socialhub\dao\impl\ProfilePictureDAOImpl.class
 com\ashutosh\socialhub\dao\BlogDAO.class
 com\ashutosh\socialhub\dao\impl\UserDAOImpl.class
 com\ashutosh\socialhub\domain\ForumComment.class
+com\ashutosh\socialhub\dao\SuggestionDAO.class
+com\ashutosh\socialhub\domain\OutputMessage.class
+com\ashutosh\socialhub\dao\JobApplicationDAO.class

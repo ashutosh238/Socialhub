@@ -1,4 +1,5 @@
 C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\src\main\java\com\ashutosh\socialhub\domain\ProfileImage.java
+C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\src\main\java\com\ashutosh\socialhub\domain\OutputMessage.java
 C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\src\main\java\com\ashutosh\socialhub\dao\impl\FriendDAOImpl.java
 C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\src\main\java\com\ashutosh\socialhub\dao\ForumDAO.java
 C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\src\main\java\com\ashutosh\socialhub\dao\impl\ProfilePictureDAOImpl.java
@@ -6,6 +7,8 @@ C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\src\main\java\com\ashutosh
 C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\src\main\java\com\ashutosh\socialhub\domain\Blog.java
 C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\src\main\java\com\ashutosh\socialhub\dao\JobDetailDAO.java
 C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\src\main\java\com\ashutosh\socialhub\dao\impl\BlogcommentDAOImpl.java
+C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\src\main\java\com\ashutosh\socialhub\dao\impl\SuggestionDAOImpl.java
+C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\src\main\java\com\ashutosh\socialhub\dao\JobApplicationDAO.java
 C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\src\main\java\com\ashutosh\socialhub\domain\ForumComment.java
 C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\src\main\java\com\ashutosh\socialhub\domain\Blogcomment.java
 C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\src\main\java\com\ashutosh\socialhub\domain\UserDetail.java
@@ -17,9 +20,14 @@ C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\src\main\java\com\ashutosh
 C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\src\main\java\com\ashutosh\socialhub\dao\BlogcommentDAO.java
 C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\src\main\java\com\ashutosh\socialhub\dao\ForumCommentDAO.java
 C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\src\main\java\com\ashutosh\socialhub\dao\UserDAO.java
+C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\src\main\java\com\ashutosh\socialhub\domain\Suggestion.java
 C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\src\main\java\com\ashutosh\socialhub\dao\FriendDAO.java
+C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\src\main\java\com\ashutosh\socialhub\domain\JobApplication.java
+C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\src\main\java\com\ashutosh\socialhub\dao\impl\JobApplicationDAOImpl.java
 C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\src\main\java\com\ashutosh\socialhub\domain\JobDetail.java
+C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\src\main\java\com\ashutosh\socialhub\domain\Message.java
 C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\src\main\java\com\ashutosh\socialhub\domain\Forum.java
 C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\src\main\java\com\ashutosh\socialhub\dao\impl\UserDAOImpl.java
 C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\src\main\java\com\ashutosh\socialhub\dao\impl\JobDetailDAOImpl.java
 C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\src\main\java\com\ashutosh\socialhub\dao\BlogDAO.java
+C:\Users\Ashutosh\eclipse-workspace1\SocialHubBackEnd\src\main\java\com\ashutosh\socialhub\dao\SuggestionDAO.java

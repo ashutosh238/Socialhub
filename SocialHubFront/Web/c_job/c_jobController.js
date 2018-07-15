@@ -22,7 +22,7 @@ myApp.controller("c_jobController", function($location, $scope, $rootScope, $htt
 	
 	$scope.deletejob = function(jobid)
 	{
-		$http.delete('http://localhost:8081/SocialHubMiddelware/job/delete/'+jobid)
+		$http.delete('http://localhost:8081/SocialHubMiddelware/jobdetail/delete/'+jobid)
 		.then(function(response)
 				{
 					console.log("job delete succesfully");
@@ -112,7 +112,7 @@ myApp.controller("c_jobController", function($location, $scope, $rootScope, $htt
 	
 	$scope.approveApplication = function(jobappid)
 	{
-		$http.get('http://localhost:8081/SocialHubMiddelware/job/approveApplication/'+jobappid)
+		$http.get('http://localhost:8081/SocialHubMiddelware/jobdetail/approveApplication/'+jobappid)
 		.then(function(response)
 				{
 					console.log("Approved");
@@ -122,7 +122,7 @@ myApp.controller("c_jobController", function($location, $scope, $rootScope, $htt
 	
 	$scope.rejectApplication = function(jobappid)
 	{
-		$http.get('http://localhost:8081/SocialHubMiddelware/job/rejectApplication/'+jobappid)
+		$http.get('http://localhost:8081/SocialHubMiddelware/jobdetail/rejectApplication/'+jobappid)
 		.then(function(response)
 				{
 					console.log("Rejected");

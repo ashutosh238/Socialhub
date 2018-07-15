@@ -16,9 +16,9 @@
     </div> 
     <div class="card-footer">
     	
-        <button type="button" class="btn btn-primary" ng-click="applyjobClicked(jobdetail.jobId)">Apply</button>
-  		<button type="button" class="btn btn-danger" ng-click="deletejob(jobdetail.jobid)" ng-show="CurrentUser.role=='ROLE_USER'">Delete</button>
-        <button type="button" ng-show="CurrentUser.role =='ROLE_USER'"  class="btn btn-info" style="float:right;" ng-click="updatejob(jobdetail.jobid)">Close</button>
+        <button type="button" class="btn btn-primary" ng-show="CurrentUser.roles=='ROLE_USER' " ng-click="applyjobClicked(jobdetail.jobId)">Apply</button>
+  		<button type="button" class="btn btn-danger" ng-click="deletejob(jobdetail.jobId)" ng-show="CurrentUser.roles=='ROLE_ADMIN'">Delete</button>
+        <button type="button" ng-show="CurrentUser.role =='ROLE_ADMIN'"  class="btn btn-info" style="float:right;" ng-click="updatejob(jobdetail.jobid)">Close</button>
        
     </div>
  	</div>

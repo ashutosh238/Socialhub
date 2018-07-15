@@ -21,7 +21,7 @@ public class UserRestController
 		@PostMapping("/registerUser")
 		public ResponseEntity<String> registerUser(@RequestBody UserDetail userDetail)
 		{
-			userDetail.setRoles("ROLE_USER");
+			userDetail.setRoles("ROLE_ADMIN");
 			if(userDAO.registerUser(userDetail))
 			{
 				return new ResponseEntity<String>("Success",HttpStatus.OK);

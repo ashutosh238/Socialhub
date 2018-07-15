@@ -83,7 +83,7 @@ public class JobDetailDAOImpl implements JobDetailDAO
 	@Override
 	public boolean deleteJob(int jobid) {
 		try {
-			sessionFactory.getCurrentSession().delete(getJob(jobid));
+			sessionFactory.getCurrentSession().delete(get(jobid));
 			return true;
 		} catch (HibernateException e) {
 			// TODO Auto-generated catch block

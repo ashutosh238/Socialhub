@@ -88,7 +88,7 @@ public class JobRestController
 	@DeleteMapping("/jobdetail/delete/{jobid}")
 	public ResponseEntity<JobDetail> deleteJob(@PathVariable int jobid)
 	{
-		JobDetail j = jobdetailDAO.getJob(jobid);
+		JobDetail j = jobdetailDAO.get(jobid);
 		if(j == null)				
 		{
 			jobdetail = new JobDetail();
@@ -145,10 +145,11 @@ public class JobRestController
 		JobDetail jobdetail = jobdetailDAO.get(jobid);
 		
 		jobApplication.setLoginname(loginname);
-		jobApplication.setEmail(user.getEmailId());
+		jobApplication.setEmailid(user.getEmailId());
 		jobApplication.setJobdescription(jobdetail.getDesignation());
 		jobApplication.setJobid(jobid);
 		jobApplication.setJobtitle(jobdetail.getDesignation());
+		jobApplication.setReason("interested");
 		
 		if(!jobappDAO.isJobAlreadyApplied(loginname, jobid))
 		{

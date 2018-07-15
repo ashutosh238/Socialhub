@@ -10,14 +10,14 @@
     
     <div class="card-body">{{blog.blogcontent}}</div> 
     <div class="card-footer">
-    	<button class="btn btn-primary" ng-click="approveblog(blog.blogid)" ng-show="blog.blogstatus=='NA' && CurrentUser.role=='ROLE_ADMIN'">Approve</button>
-        <button class="btn btn-info" ng-click="rejectblog(blog.blogid)" ng-show="blog.blogstatus=='NA' && CurrentUser.role=='ROLE_ADMIN'">Reject</button>
-        <label style="font-weight:bold;" ng-show="blog.blogstatus=='A'"><span class="badge badge-pill badge-info">Approved</span></label>
-  		<label style="font-weight:bold;" ng-show="blog.blogstatus=='R'"><span class="badge badge-pill badge-danger">Rejected</span></label>
+    	<button class="btn btn-primary" ng-click="approveblog(blog.blogId)" ng-show="blog.blogstatus=='NA' && CurrentUser.role=='ROLE_ADMIN'">Approve</button>
+        <button class="btn btn-info" ng-click="rejectblog(blog.blogId)" ng-show="blog.blogstatus=='NA' && CurrentUser.role=='ROLE_ADMIN'">Reject</button>
+        <label style="font-weight:bold;" ng-show="blog.status=='A'"><span class="badge badge-pill badge-info">Approved</span></label>
+  		<label style="font-weight:bold;" ng-show="blog.status=='R'"><span class="badge badge-pill badge-danger">Rejected</span></label>
   		
-        <button style="float:right;" class="btn btn-danger" ng-click="deleteblog(blog.blogid)">Delete</button>&nbsp;&nbsp;
-        <button style="float:right;" ng-hide="blog.blogstatus == 'R'" class="btn btn-info" ng-click="commentedblog(blog.blogid)">Comment</button>&nbsp;&nbsp;
-        <button style="float:right;" ng-hide="blog.blogstatus == 'R'" class="btn btn-warning" ng-click="incLike(blog.blogid)">Like <span class="badge badge-light">{{blog.likes}}</span></button>
+        <button style="float:right;" class="btn btn-danger" ng-click="deleteblog(blog.blogId)">Delete</button>&nbsp;&nbsp;
+        <button style="float:right;" ng-hide="blog.blogstatus == 'R'" class="btn btn-info" ng-click="commentedblog(blog.blogId)">Comment</button>&nbsp;&nbsp;
+        <button style="float:right;" ng-hide="blog.blogstatus == 'R'" class="btn btn-warning" ng-click="incLike(blog.blogId)">Like <span class="badge badge-light">{{blog.likes}}</span></button>
         
     </div>
  	</div>

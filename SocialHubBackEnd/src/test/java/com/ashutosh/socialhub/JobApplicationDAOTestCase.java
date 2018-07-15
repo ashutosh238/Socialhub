@@ -36,7 +36,7 @@ private static AnnotationConfigApplicationContext context;
 	public void applyForJobSuccessTestCase()
 	{
 		JobApplication jobApplication=new JobApplication();
-		jobApplication.setEmail("ashutosh@gmail.com");
+		jobApplication.setEmailid("ashutosh@gmail.com");
 		jobApplication.setJobid(42);
 		
 		assertEquals("apply for job success test case", true, jobappDAO.saveJobApplication(jobApplication));

@@ -15,9 +15,9 @@
   <div id="{{blog.blogId}}" class="collapse"><br>
     <textarea class="form-control" readonly rows="5" name="blogcontent" ng-model="blog.blogcontent" placeholder="{{blog.blogcontent}}"></textarea>
     <br>
-      	<button type="button" class="btn btn-primary" ng-click="approve(blog.blogId)" ng-show="blog.status=='NA'">Approve</button>
-  		<button type="button" class="btn btn-primary" ng-click="reject(blog.blogId)" ng-show="blog.status=='NA' ">Reject</button>
-  		<button type="button" class="btn btn-danger"  ng-click="deleteblog(blog.blogId)">Delete</button>
+      	<button type="button" class="btn btn-primary"ng-show="CurrentUser.roles =='ROLE_ADMIN'  && blog.status=='NA'" ng-click="approve(blog.blogId)">Approve</button>
+  		<button type="button" class="btn btn-primary" ng-show="CurrentUser.roles =='ROLE_ADMIN'  && blog.status=='NA'" ng-click="reject(blog.blogId)" >Reject</button>
+  		<button type="button" class="btn btn-danger" ng-show="CurrentUser.roles =='ROLE_ADMIN'" ng-click="deleteblog(blog.blogId)">Delete</button>
   		 <button style="float:right;" class="btn btn-success" ng-hide="CurrentUser == undefined" ng-click="commentedblog(blog.blogId)">Comment</button>
   		
   	</div>

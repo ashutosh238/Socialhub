@@ -4,4 +4,6 @@ com\ashutosh\socialhub\ForumCommentTestCase.class
 com\ashutosh\socialhub\ForumDAOTestCase.class
 com\ashutosh\socialhub\BlogcommentTestCase.class
 com\ashutosh\socialhub\BlogDAOTestCase.class
+com\ashutosh\socialhub\SuggestionAddDAOTestCase.class
 com\ashutosh\socialhub\UserDAOTestCase.class
+com\ashutosh\socialhub\JobApplicationDAOTestCase.class

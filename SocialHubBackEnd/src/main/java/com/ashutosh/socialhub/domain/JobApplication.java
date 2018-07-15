@@ -24,7 +24,7 @@ public class JobApplication {
 	@GeneratedValue(generator="jobappid_seq")
 	@SequenceGenerator(name="jobappid_seq",sequenceName="JOBAPPID_SEQ", allocationSize=1)
 	private int jobappid;
-	private String email;
+	private String emailid;
 	private String loginname;
 	private int jobid;
 	@JsonFormat(shape=JsonFormat.Shape.STRING, pattern="dd-MM-yyyy")
@@ -33,19 +33,23 @@ public class JobApplication {
 	private String jobdescription;
 	private char jobappstatus;
 	private String reason;
-	
-	
 	public int getJobappid() {
 		return jobappid;
 	}
 	public void setJobappid(int jobappid) {
 		this.jobappid = jobappid;
 	}
-	public String getEmail() {
-		return email;
+	public String getEmailid() {
+		return emailid;
 	}
-	public void setEmail(String email) {
-		this.email = email;
+	public void setEmailid(String emailid) {
+		this.emailid = emailid;
+	}
+	public String getLoginname() {
+		return loginname;
+	}
+	public void setLoginname(String loginname) {
+		this.loginname = loginname;
 	}
 	public int getJobid() {
 		return jobid;
@@ -59,18 +63,6 @@ public class JobApplication {
 	public void setApplied_date(Date applied_date) {
 		this.applied_date = applied_date;
 	}
-	public char getJobappstatus() {
-		return jobappstatus;
-	}
-	public void setJobappstatus(char jobappstatus) {
-		this.jobappstatus = jobappstatus;
-	}
-	public String getReason() {
-		return reason;
-	}
-	public void setReason(String reason) {
-		this.reason = reason;
-	}
 	public String getJobtitle() {
 		return jobtitle;
 	}
@@ -83,12 +75,19 @@ public class JobApplication {
 	public void setJobdescription(String jobdescription) {
 		this.jobdescription = jobdescription;
 	}
-	public String getLoginname() {
-		return loginname;
+	public char getJobappstatus() {
+		return jobappstatus;
 	}
-	public void setLoginname(String loginname) {
-		this.loginname = loginname;
+	public void setJobappstatus(char jobappstatus) {
+		this.jobappstatus = jobappstatus;
 	}
-
-
+	public String getReason() {
+		return reason;
+	}
+	public void setReason(String reason) {
+		this.reason = reason;
+	}
+	
+	
+	
 }

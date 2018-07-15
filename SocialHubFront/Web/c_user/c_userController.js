@@ -1,4 +1,4 @@
-myApp.controller("c_userController", function($scope, $http, $rootScope, $location,$cookieStore)
+myApp.controller("c_userController", function($scope, $http, $rootScope, $location,$cookieStore,$route)
 {
 	$scope.user={'loginname':'','password':'','username':'','emailid':'','mobile':'','role':'','address':''};
 	
@@ -39,6 +39,15 @@ myApp.controller("c_userController", function($scope, $http, $rootScope, $locati
 				}
 			);
 	}
+	
+	$scope.logout = function()
+	{
+		console.log("Logging Out");
+		alert("Logged Out Successfully")
+		$location.path("/login");
+		$rootScope.CurrentUser = undefined;
+		$window.location.reload();
+}
 	
 	
 
