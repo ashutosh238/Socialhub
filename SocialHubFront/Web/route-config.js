@@ -28,6 +28,7 @@ myApp.config(
 				.when("/showForum",{templateUrl : "c_forum/myForum.html"})
 				.when("/allForum",{templateUrl : "c_forum/Forum.html"})
 				.when("/contactus",	{templateUrl : "c_contactUs/ContactUs.html"})
+				.when("/aboutus",	{templateUrl : "c_aboutUs/AboutUs.html"})
 				
 				.when("/applyjob",{templateUrl : "c_job/jobapplicationform.html"})
 				.when("/appliedjobs",{templateUrl : "c_job/appliedJobs.html"})
@@ -36,7 +37,9 @@ myApp.config(
 				.when("/showjobs",{templateUrl : "c_job/jobs.html"})
 				.when("/allapplications", {templateUrl : "c_job/adminjobapp.html"})
 				
-				.when("/chat",{templateUrl:"c_chat/chatroom.html"});
+				.when("/chat",{templateUrl:"c_chat/chatroom.html"})
+				
+				.when("/suggestion",{templateUrl : "c_contactUs/showSuggestion.html"});
 				
 				
 			});

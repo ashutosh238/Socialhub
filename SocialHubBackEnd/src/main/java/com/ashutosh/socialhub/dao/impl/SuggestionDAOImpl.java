@@ -1,6 +1,7 @@
 package com.ashutosh.socialhub.dao.impl;
 
 import java.sql.Date;
+import java.util.List;
 
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,5 +32,12 @@ public class SuggestionDAOImpl implements SuggestionDAO{
 		}
 		return true;
 }
+
+
+
+	@Override
+	public List<Suggestion> list() {
+		return sessionFactory.getCurrentSession().createQuery("from Suggestion").list();
+	}
 
 }

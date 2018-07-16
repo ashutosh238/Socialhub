@@ -8,6 +8,8 @@ import javax.persistence.Table;
 
 import org.springframework.stereotype.Component;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 @Component
 @Entity
 @Table
@@ -18,7 +20,9 @@ public class Suggestion {
 	@Id
 	private String emailid;
 	private String message;
+	@JsonFormat(shape=JsonFormat.Shape.STRING, pattern="dd-MM-yyyy")
 	private Date added_date;
+	
 	public String getName() {
 		return name;
 	}

@@ -32,7 +32,10 @@
   
 <title>SocialHub</title>
 </head>
-<body ng-app="myApp">
+<body ng-app="myApp" background="12.jpg">
+
+
+
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <!-- Brand -->
@@ -41,7 +44,7 @@
     	 <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown"> Blog </a>
     		<div class="dropdown-menu">
         		<a class="dropdown-item" href="#/myBlog" ng-hide="CurrentUser==undefined">My Blog</a>
-        		<a class="dropdown-item" href="#/addBlog" >Add Blog</a>
+        		<a class="dropdown-item" href="#/addBlog" ng-hide="CurrentUser==undefined">Add Blog</a>
         		<a class="dropdown-item" href="#/allBlog">Show Blogs</a>
      		</div>
   		</li>
@@ -99,6 +102,9 @@
     <li class="nav-item">
       <a class="nav-link" href="#/contactus"> ContactUs </a>
     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="#/aboutus"> AboutUs </a>
+    </li>
     
     <li class="nav-item dropdown">
     	 <a class="nav-link dropdown-toggle" href="" id="navbardrop" data-toggle="dropdown"> Jobs </a>
@@ -113,12 +119,14 @@
 <li class="nav-item" ng-hide="CurrentUser==undefined">
       <a class="nav-link" href="#/logout"> Logout </a>
     </li>   
+  <li class="nav-item" ng-show="CurrentUser.roles =='ROLE_ADMIN'">
+      <a class="nav-link" href="#/suggestion"> Show Suggestions </a>
+    </li>   
   
 
   </ul>
 </nav>
- 
-    
+
 
 <div ng-view></div>
 

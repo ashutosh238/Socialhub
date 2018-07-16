@@ -1,0 +1,32 @@
+<div style="margin:0;" class="container" ng-Controller="c_contactController">
+<br>
+<div style="float:center;">
+	<div class="card" style="width:1500px;margin:0;min-height:300px;padding:0px;border:1px solid black;">
+ 	 <h4 style="background-color:powderblue;padding:10px;" align="center" class="card-title"><b>All Suggestions</b></h4>
+ 	 <p align="center" style="padding:0;"><img class="card-img-top" src="index.png" alt="Card image" style="width:150px;height:100px;"></p>
+    	<div class="card-body">
+    		  <table class="table table-bordered">
+    <thead style="background-color:cyan;">
+      <tr style="text-align:center;">
+      	<th style="width:20px;">Name</th>
+      	<th style="width:20px;">E-mail</th>
+        <th style="width:150px;">Suggestion</th>
+        <th style="width:250px;">Date</th>
+        
+      </tr>
+    </thead>
+    <tbody ng-repeat="job in allsuggestion">
+      <tr style="text-align:center;">
+      	<td>{{job.name}}</td>
+      	<td>{{job.emailid}}</td>
+      	<td>{{job.message}}</td>
+      	<td>{{job.added_date}}</td>
+      </tr>
+    </tbody>
+  </table>
+		</div>
+	</div>
+  		 
+</div>
+
+</div>

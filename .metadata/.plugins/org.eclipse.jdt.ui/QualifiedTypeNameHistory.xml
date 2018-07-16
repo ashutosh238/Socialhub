@@ -20,7 +20,6 @@
     <fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonFormat"/>
     <fullyQualifiedTypeName name="java.sql.Date"/>
     <fullyQualifiedTypeName name="com.ashutosh.socialhub.dao.JobApplicationDAO"/>
-    <fullyQualifiedTypeName name="org.junit.Ignore"/>
     <fullyQualifiedTypeName name="com.ashutosh.socialhub.dao.JobDetailDAO"/>
     <fullyQualifiedTypeName name="com.ashutosh.socialhub.dao.UserDAO"/>
     <fullyQualifiedTypeName name="com.ashutosh.socialhub.domain.JobDetail"/>
@@ -33,6 +32,7 @@
     <fullyQualifiedTypeName name="org.junit.Test"/>
     <fullyQualifiedTypeName name="javax.persistence.Id"/>
     <fullyQualifiedTypeName name="com.ashutosh.socialhub.domain.Suggestion"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="com.ashutosh.socialhub.dao.SuggestionDAO"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.junit.Ignore"/>
 </qualifiedTypeNameHistroy>

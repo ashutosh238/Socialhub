@@ -1,36 +1,53 @@
 package com.ashutosh.socialhub.restrcontroller;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.ashutosh.socialhub.dao.SuggestionDAO;
+import com.ashutosh.socialhub.domain.Blog;
 import com.ashutosh.socialhub.domain.Suggestion;
 
 @RestController
 public class SuggestionRestController {
-	@Autowired
-	private static SuggestionDAO suggestionDAO;
 	
+	@Autowired
+	SuggestionDAO suggestionDAO;
 	@PostMapping("/addSuggestion")
-	public ResponseEntity<String> AddSuggestion(@RequestBody Suggestion suggestion)
+	public ResponseEntity<Suggestion> AddSuggestion(@RequestBody Suggestion suggestion)
 	{
-		Suggestion s=new Suggestion();
-		s.setEmailid(suggestion.getEmailid());
-		s.setMessage(suggestion.getMessage());
-		s.setName(suggestion.getName());
-		if(suggestionDAO.addSuggestion(s))
+		
+		
+		if(suggestionDAO.addSuggestion(suggestion))
 		{
-			return new ResponseEntity<String>("Success",HttpStatus.OK);
+			return new ResponseEntity<Suggestion>(suggestion,HttpStatus.OK);
 		}
 		else
 		{
-			return new ResponseEntity<String>("Faliure",HttpStatus.NOT_FOUND);
+			return new ResponseEntity<Suggestion>(suggestion,HttpStatus.NOT_FOUND);
 		}
 	}
+	@GetMapping("/listSuggestions")
+	public ResponseEntity<List<Suggestion>> listSuggestions()
+	{
+		List<Suggestion> listSuggestions=suggestionDAO.list();
+		if(listSuggestions.size()>0)
+		{
+			return new ResponseEntity<List<Suggestion>>(listSuggestions,HttpStatus.OK);
+		}
+		else
+		{
+			return new ResponseEntity<List<Suggestion>>(listSuggestions,HttpStatus.NOT_FOUND);
+		}
+	
+	}
+	
 
 
 }
