@@ -46,6 +46,7 @@ myApp.controller("c_userController", function($scope, $http, $rootScope, $locati
 		alert("Logged Out Successfully")
 		$location.path("/login");
 		$rootScope.CurrentUser = undefined;
+		$cookieStore.remove('userDetail');
 		$window.location.reload();
 }
 	
