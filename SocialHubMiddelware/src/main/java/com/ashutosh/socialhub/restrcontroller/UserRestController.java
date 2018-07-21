@@ -19,16 +19,16 @@ public class UserRestController
 		UserDAO userDAO;
 	
 		@PostMapping("/registerUser")
-		public ResponseEntity<String> registerUser(@RequestBody UserDetail userDetail)
+		public ResponseEntity<UserDetail> registerUser(@RequestBody UserDetail userDetail)
 		{
-			userDetail.setRoles("ROLE_ADMIN");
+			userDetail.setRoles("ROLE_USER");
 			if(userDAO.registerUser(userDetail))
 			{
-				return new ResponseEntity<String>("Success",HttpStatus.OK);
+				return new ResponseEntity<UserDetail>(userDetail,HttpStatus.OK);
 			}
 			else
 			{
-				return new ResponseEntity<String>("Faliure",HttpStatus.NOT_FOUND);
+				return new ResponseEntity<UserDetail>(userDetail,HttpStatus.NOT_FOUND);
 			}
 		}
 		

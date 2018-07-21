@@ -2857,3 +2857,13 @@ java.net.UnknownHostException: java.sun.com
 2018-07-20 15:48:11,974 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2018-07-20 15:48:11,978 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2018-07-20 15:48:11,988 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubMiddelware\src\test\resources
+2018-07-20 23:28:02,923 [Worker-4] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-07-21 10:16:20,897 [Worker-4] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-07-21 10:16:53,583 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-21 10:16:53,618 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-21 10:16:53,624 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-21 10:16:53,635 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubMiddelware\src\test\resources
+2018-07-21 10:36:00,538 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-21 10:36:00,674 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-21 10:36:00,674 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-21 10:36:00,692 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Ashutosh\eclipse-workspace1\SocialHubMiddelware\src\test\resources

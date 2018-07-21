@@ -18,27 +18,28 @@ myApp.controller("c_userController", function($scope, $http, $rootScope, $locati
 					console.log("login Successful: ");
 					
 					$location.path("/loggedin");
-				}
-			);
+				});
 	}
 	
 	$scope.register = function()
 	{
 		console.log("register page");
-		console.log("email" + $scope.user.emailId);
-		console.log("password" + $scope.user.password);
 		
 		$http.post('http://localhost:8081/SocialHubMiddelware/registerUser', $scope.user)
 		.then(function(response)
 				{
-				alert("added successfully")
 					console.log("registered successfully");
-					console.log(response.statusText);
+					alert("Registered Successfully")
 					$location.path("/login");
-					
-				}
-			);
-	}
+				},
+				function(response)
+				{
+					alert("Please Enter Valid Data")
+				});
+}
+	
+	
+	
 	
 	$scope.logout = function()
 	{
